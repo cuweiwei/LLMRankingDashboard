@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "build:pages": "GITHUB_PAGES=true next build",
+    "start": "python3 -m http.server 3000 --directory out",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
     "test": "vitest run"

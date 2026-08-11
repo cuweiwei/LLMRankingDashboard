@@ -77,7 +77,7 @@ export default function DashboardApp() {
           <span className="seed-dot" aria-hidden="true" />
           <span>Illustrative seed dataset active.</span>
           <span className="notice-separator">·</span>
-          <a href="/api/leaderboard" target="_blank" rel="noreferrer">View normalized data</a>
+          <a href="api/leaderboard" target="_blank" rel="noreferrer">View normalized data</a>
           <span className="notice-separator">·</span>
           <span>Prices are standard API rates; cached, batch and self-hosting costs are excluded.</span>
         </div>

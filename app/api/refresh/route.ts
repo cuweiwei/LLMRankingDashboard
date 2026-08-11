@@ -1,6 +1,8 @@
 import { NextResponse } from "next/server";
 import { loadDashboardSnapshot } from "@/lib/data";
 
+export const dynamic = "force-static";
+
 export async function GET() {
   const snapshot = loadDashboardSnapshot();
   return NextResponse.json({
@@ -9,8 +11,4 @@ export async function GET() {
     lastUpdated: snapshot.lastUpdated,
     dataSource: snapshot.dataSource,
   });
-}
-
-export async function POST() {
-  return GET();
 }

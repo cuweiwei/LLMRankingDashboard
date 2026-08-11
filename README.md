@@ -24,7 +24,28 @@ npm run lint
 npm run typecheck
 npm test
 npm run build
+npm run build:pages
 ```
+
+`npm run build` creates the static export in `out/`. Preview that export locally with:
+
+```bash
+npm run start
+```
+
+## Deploy to GitHub Pages
+
+This repository is configured for a project site at:
+
+```text
+https://cuweiwei.github.io/LLMRankingDashboard/
+```
+
+The static export uses `output: "export"`, `trailingSlash: true`, `images.unoptimized: true`, and a build-time `basePath` of `/LLMRankingDashboard` when `GITHUB_PAGES=true`. The workflow in `.github/workflows/deploy-pages.yml` runs lint, type-checking, tests, builds the `out/` directory, and deploys it with GitHub Pages.
+
+After the workflow is pushed, enable **Settings → Pages → Source: GitHub Actions** in the repository if it is not already enabled. Future pushes to `main` redeploy automatically.
+
+GitHub Pages is static hosting, so live benchmark refresh cannot run as a server-side cron or API. The current data is bundled into the build; updating `data/*.json` and pushing to `main` is the supported refresh path. The `/api/leaderboard` and `/api/refresh` route handlers are emitted as static JSON files during export, not server processes.
 
 ## What is included
 
@@ -68,8 +89,8 @@ Key boundaries:
 - `lib/benchmarks/definitions.ts` defines the three benchmark cards and source URLs.
 - `lib/providers/artificialAnalysis.ts` is the benchmark adapter boundary. It currently returns no live records because the public pages do not provide a stable unauthenticated JSON contract; validated local data remains the fallback.
 - `lib/pricing/index.ts` is the independent pricing adapter boundary.
-- `app/api/leaderboard/route.ts` exposes the normalized snapshot.
-- `app/api/refresh/route.ts` is a safe refresh hook for a future scheduled ingestion job.
+- `app/api/leaderboard/route.ts` emits the normalized snapshot as a static JSON artifact during export.
+- `app/api/refresh/route.ts` emits static refresh metadata; it cannot schedule ingestion on GitHub Pages.
 - `data_source: "seed"` is preserved in the bundled records, and the UI explicitly identifies the snapshot as illustrative seed data.
 
 ## Updating benchmark data
