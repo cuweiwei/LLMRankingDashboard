@@ -63,7 +63,7 @@ export default function DashboardApp() {
 
   return (
     <main className="app-shell">
-      <DashboardHeader lastUpdated={snapshot.lastUpdated} dataSource={snapshot.dataSource} />
+      <DashboardHeader lastUpdated={snapshot.lastUpdated} dataSource={snapshot.dataSource} metadata={snapshot.metadata} />
       <div className="content-shell">
         <section className="summary-grid" aria-label="Use case summaries">
           {benchmarkIds.map((id) => (
@@ -77,7 +77,7 @@ export default function DashboardApp() {
           <span className="seed-dot" aria-hidden="true" />
           <span>Illustrative seed dataset active.</span>
           <span className="notice-separator">·</span>
-          <a href="api/leaderboard" target="_blank" rel="noreferrer">View normalized data</a>
+          <span>Static JSON snapshot</span>
           <span className="notice-separator">·</span>
           <span>Prices are standard API rates; cached, batch and self-hosting costs are excluded.</span>
         </div>
@@ -92,6 +92,8 @@ export default function DashboardApp() {
                 entries={entriesByBenchmark[id] ?? []}
                 loading={!ready}
                 filters={filters}
+                sourceStatus={snapshot.metadata.sources[id].status}
+                updatedAt={snapshot.metadata.sources[id].last_successful_update ?? definition.updatedAt}
               />
             );
           })}

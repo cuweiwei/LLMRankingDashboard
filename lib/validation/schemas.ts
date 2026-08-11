@@ -29,3 +29,21 @@ export const pricingSchema = z.object({
   source_url: z.string().url(),
   data_source: z.enum(["seed", "live", "cache"]),
 });
+
+export const sourceRefreshStatusSchema = z.object({
+  last_attempted_update: z.string().datetime(),
+  last_successful_update: z.string().datetime().optional(),
+  status: z.enum(["success", "fallback", "failed"]),
+  error: z.string().optional(),
+  record_count: z.number().int().nonnegative().optional(),
+});
+
+export const metadataSchema = z.object({
+  generated_at: z.string().datetime(),
+  sources: z.object({
+    enterpriseops: sourceRefreshStatusSchema,
+    "coding-agent-index": sourceRefreshStatusSchema,
+    gdpval: sourceRefreshStatusSchema,
+    pricing: sourceRefreshStatusSchema,
+  }),
+});

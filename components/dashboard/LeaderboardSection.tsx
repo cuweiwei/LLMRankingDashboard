@@ -1,8 +1,8 @@
-import type { BenchmarkDefinition, DashboardFilters, DisplayEntry } from "@/types/models";
+import type { BenchmarkDefinition, DashboardFilters, DisplayEntry, SourceStatus } from "@/types/models";
 import LeaderboardTable from "./LeaderboardTable";
 import { DataFreshnessIndicator } from "./DataFreshnessIndicator";
 
-export default function LeaderboardSection({ definition, entries, loading, filters }: { definition: BenchmarkDefinition; entries: DisplayEntry[]; loading: boolean; filters: DashboardFilters }) {
+export default function LeaderboardSection({ definition, entries, loading, filters, sourceStatus, updatedAt }: { definition: BenchmarkDefinition; entries: DisplayEntry[]; loading: boolean; filters: DashboardFilters; sourceStatus: SourceStatus; updatedAt: string }) {
   return (
     <section className="leaderboard-section" aria-labelledby={`${definition.id}-heading`}>
       <div className="leaderboard-header">
@@ -12,7 +12,7 @@ export default function LeaderboardSection({ definition, entries, loading, filte
           <p>{definition.subtitle}</p>
         </div>
         <div className="section-actions">
-          <DataFreshnessIndicator updatedAt={definition.updatedAt} type="benchmark" />
+          <DataFreshnessIndicator updatedAt={updatedAt} type="benchmark" status={sourceStatus} />
           <a className="source-link" href={definition.sourceUrl} target="_blank" rel="noreferrer">Source <span aria-hidden="true">↗</span></a>
         </div>
       </div>

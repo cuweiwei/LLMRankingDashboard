@@ -1,6 +1,7 @@
 export type BenchmarkId = "enterpriseops" | "coding-agent-index" | "gdpval";
 export type ModelAccess = "open" | "closed" | "unknown";
 export type DataSource = "seed" | "live" | "cache";
+export type SourceStatus = "success" | "fallback" | "failed";
 export type SortMode = "score" | "cost-asc" | "cost-desc";
 
 export interface Model {
@@ -53,6 +54,19 @@ export interface BenchmarkDefinition {
   updatedAt: string;
 }
 
+export interface SourceRefreshStatus {
+  last_attempted_update: string;
+  last_successful_update?: string;
+  status: SourceStatus;
+  error?: string;
+  record_count?: number;
+}
+
+export interface DataMetadata {
+  generated_at: string;
+  sources: Record<BenchmarkId | "pricing", SourceRefreshStatus>;
+}
+
 export interface DashboardSnapshot {
   models: Model[];
   benchmarks: Record<BenchmarkId, BenchmarkResult[]>;
@@ -61,6 +75,7 @@ export interface DashboardSnapshot {
   aliases: ModelAlias[];
   lastUpdated: string;
   dataSource: DataSource;
+  metadata: DataMetadata;
 }
 
 export interface DashboardFilters {

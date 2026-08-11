@@ -1,7 +1,11 @@
 import { formatDateTime } from "@/lib/utils/dates";
-import type { DataSource } from "@/types/models";
+import type { DataMetadata, DataSource } from "@/types/models";
 
-export default function DashboardHeader({ lastUpdated, dataSource }: { lastUpdated: string; dataSource: DataSource }) {
+export default function DashboardHeader({ lastUpdated, dataSource, metadata }: { lastUpdated: string; dataSource: DataSource; metadata: DataMetadata }) {
+  const statuses = Object.values(metadata.sources).map((source) => source.status);
+  const hasFailure = statuses.includes("failed");
+  const hasFallback = statuses.includes("fallback");
+  const statusLabel = hasFailure ? "Refresh failed · cached" : hasFallback ? "Cached fallback" : dataSource === "seed" ? "Seed snapshot" : "Live data";
   return (
     <header className="dashboard-header content-shell">
       <div className="brand-lockup">
@@ -12,8 +16,8 @@ export default function DashboardHeader({ lastUpdated, dataSource }: { lastUpdat
         </div>
       </div>
       <div className="header-meta">
-        <span className={`status-chip ${dataSource === "seed" ? "status-seed" : "status-live"}`}>
-          <span className="status-dot" aria-hidden="true" /> {dataSource === "seed" ? "Seed snapshot" : "Live data"}
+        <span className={`status-chip ${hasFailure || hasFallback || dataSource === "seed" ? "status-seed" : "status-live"}`}>
+          <span className="status-dot" aria-hidden="true" /> {statusLabel}
         </span>
         <div className="updated-block">
           <span className="meta-label">Last updated</span>

@@ -7,6 +7,8 @@
     "build": "next build",
     "build:pages": "GITHUB_PAGES=true next build",
     "start": "python3 -m http.server 3000 --directory out",
+    "data:update": "tsx scripts/update-data.ts",
+    "data:validate": "tsx scripts/validate-data.ts",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
     "test": "vitest run"
@@ -23,6 +25,7 @@
     "@types/react-dom": "^19.0.0",
     "eslint": "^9.0.0",
     "eslint-config-next": "16.3.0",
+    "tsx": "^4.19.2",
     "typescript": "^5.8.0",
     "vitest": "^3.2.4"
   }

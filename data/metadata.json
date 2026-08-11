@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-08-11T07:01:22.044Z",
+  "sources": {
+    "enterpriseops": {
+      "last_attempted_update": "2026-08-11T07:01:22.044Z",
+      "last_successful_update": "2026-08-10T09:00:00.000Z",
+      "status": "fallback",
+      "error": "EnterpriseOps-Gym-AA is not exposed as a distinct field in the free Artificial Analysis API",
+      "record_count": 12
+    },
+    "coding-agent-index": {
+      "last_attempted_update": "2026-08-11T07:01:22.044Z",
+      "last_successful_update": "2026-08-10T09:00:00.000Z",
+      "status": "fallback",
+      "error": "ARTIFICIAL_ANALYSIS_API_KEY is not configured",
+      "record_count": 12
+    },
+    "gdpval": {
+      "last_attempted_update": "2026-08-11T07:01:22.044Z",
+      "last_successful_update": "2026-08-10T09:00:00.000Z",
+      "status": "fallback",
+      "error": "ARTIFICIAL_ANALYSIS_API_KEY is not configured",
+      "record_count": 12
+    },
+    "pricing": {
+      "last_attempted_update": "2026-08-11T07:01:22.044Z",
+      "last_successful_update": "2026-08-10T09:00:00.000Z",
+      "status": "fallback",
+      "error": "ARTIFICIAL_ANALYSIS_API_KEY is not configured",
+      "record_count": 11
+    }
+  }
+}
