@@ -5,7 +5,7 @@ export default function DashboardHeader({ lastUpdated, dataSource, metadata }: {
   const statuses = Object.values(metadata.sources).map((source) => source.status);
   const hasFailure = statuses.includes("failed");
   const hasFallback = statuses.includes("fallback");
-  const statusLabel = hasFailure ? "Refresh failed · cached" : hasFallback ? "Cached fallback" : dataSource === "seed" ? "Seed snapshot" : "Live data";
+  const statusLabel = hasFailure ? "Refresh failed · cached" : hasFallback || dataSource === "seed" ? "DEMO / FALLBACK DATA" : "Live data";
   return (
     <header className="dashboard-header content-shell">
       <div className="brand-lockup">

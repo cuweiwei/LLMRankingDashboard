@@ -4,8 +4,11 @@ import { enterpriseOpsProvider } from "@/lib/sources/benchmarks/enterpriseOps";
 import { codingAgentProvider } from "@/lib/sources/benchmarks/codingAgent";
 import { gdpvalProvider } from "@/lib/sources/benchmarks/gdpval";
 import { artificialAnalysisPricingProvider } from "@/lib/sources/pricing/artificialAnalysis";
+import { fetchArtificialAnalysisModels, type AAModel } from "@/lib/sources/artificialAnalysisApi";
+import { mergeDiscoveredModels } from "@/lib/models/registry";
 import { benchmarkResultSchema, metadataSchema, pricingSchema } from "@/lib/validation/schemas";
-import type { BenchmarkId, DataMetadata, Pricing, SourceRefreshStatus } from "@/types/models";
+import type { BenchmarkId, DataMetadata, Model, Pricing, SourceRefreshStatus } from "@/types/models";
+import type { SourceContext } from "@/lib/sources/types";
 import { validateDataFiles } from "./validate-data";
 
 const root = process.cwd();
@@ -31,11 +34,11 @@ function assertCandidateCount(source: string, currentCount: number, candidateCou
   if (candidateCount < minimum) throw new Error(`${source} returned ${candidateCount} records; refusing to replace ${currentCount} existing records`);
 }
 
-async function updateBenchmark(benchmarkId: BenchmarkId, file: string, currentMetadata: SourceRefreshStatus) {
+async function updateBenchmark(benchmarkId: BenchmarkId, file: string, currentMetadata: SourceRefreshStatus, context: SourceContext) {
   const existing = await readJson<unknown[]>(file);
   try {
     const provider = benchmarkId === "enterpriseops" ? enterpriseOpsProvider : benchmarkId === "gdpval" ? gdpvalProvider : codingAgentProvider;
-    const candidate = await provider.fetch();
+    const candidate = await provider.fetch(context);
     const parsed = benchmarkResultSchema.array().safeParse(candidate);
     if (!parsed.success) throw new Error(`${benchmarkId} candidate failed validation: ${parsed.error.message}`);
     assertCandidateCount(benchmarkId, existing.length, parsed.data.length);
@@ -48,11 +51,11 @@ async function updateBenchmark(benchmarkId: BenchmarkId, file: string, currentMe
   }
 }
 
-async function updatePricing(currentMetadata: SourceRefreshStatus) {
+async function updatePricing(currentMetadata: SourceRefreshStatus, context: SourceContext) {
   const file = "data/pricing.json";
   const existing = await readJson<Pricing[]>(file);
   try {
-    const candidate = await artificialAnalysisPricingProvider.fetch();
+    const candidate = await artificialAnalysisPricingProvider.fetch(context);
     const parsed = pricingSchema.array().safeParse(candidate);
     if (!parsed.success) throw new Error(`pricing candidate failed validation: ${parsed.error.message}`);
     assertCandidateCount("pricing", existing.length, parsed.data.length);
@@ -66,14 +69,27 @@ async function updatePricing(currentMetadata: SourceRefreshStatus) {
 }
 
 export async function updateData() {
+  const existingModels = await readJson<Model[]>("data/models.json");
+  let discoveredRows: AAModel[] | undefined;
+  let artificialAnalysisError: unknown;
+  try {
+    discoveredRows = await fetchArtificialAnalysisModels();
+    const registry = mergeDiscoveredModels(existingModels, discoveredRows);
+    await writeAtomic("data/models.json", registry.models);
+    console.log(`models: SUCCESS (${registry.models.length} total, ${registry.discovered.length} newly discovered)`);
+  } catch (error) {
+    artificialAnalysisError = error;
+    console.log(`models: FALLBACK (${errorMessage(error)})`);
+  }
+  const context: SourceContext = { models: discoveredRows ? mergeDiscoveredModels(existingModels, discoveredRows).models : existingModels, artificialAnalysisRows: discoveredRows, artificialAnalysisError };
   const metadata = await readJson<DataMetadata>("data/metadata.json");
   const nextMetadata: DataMetadata = {
     generated_at: now,
     sources: {
-      enterpriseops: await updateBenchmark("enterpriseops", "data/enterpriseops.json", metadata.sources.enterpriseops),
-      "coding-agent-index": await updateBenchmark("coding-agent-index", "data/coding.json", metadata.sources["coding-agent-index"]),
-      gdpval: await updateBenchmark("gdpval", "data/gdpval.json", metadata.sources.gdpval),
-      pricing: await updatePricing(metadata.sources.pricing),
+      enterpriseops: await updateBenchmark("enterpriseops", "data/enterpriseops.json", metadata.sources.enterpriseops, context),
+      "coding-agent-index": await updateBenchmark("coding-agent-index", "data/coding.json", metadata.sources["coding-agent-index"], context),
+      gdpval: await updateBenchmark("gdpval", "data/gdpval.json", metadata.sources.gdpval, context),
+      pricing: await updatePricing(metadata.sources.pricing, context),
     },
   };
   const parsedMetadata = metadataSchema.safeParse(nextMetadata);

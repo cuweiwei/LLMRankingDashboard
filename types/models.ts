@@ -9,6 +9,8 @@ export interface Model {
   name: string;
   provider: string;
   model_access: ModelAccess;
+  upstream_id?: string;
+  upstream_slug?: string;
   configuration?: string;
   release_date?: string;
 }

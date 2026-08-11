@@ -1,11 +1,18 @@
-import type { BenchmarkResult, BenchmarkId, Pricing } from "@/types/models";
+import type { BenchmarkResult, BenchmarkId, Model, Pricing } from "@/types/models";
+import type { AAModel } from "@/lib/sources/artificialAnalysisApi";
+
+export interface SourceContext {
+  models: Model[];
+  artificialAnalysisRows?: AAModel[];
+  artificialAnalysisError?: unknown;
+}
 
 export interface BenchmarkProvider {
   id: BenchmarkId;
-  fetch: () => Promise<BenchmarkResult[]>;
+  fetch: (context: SourceContext) => Promise<BenchmarkResult[]>;
 }
 
 export interface PricingProvider {
   id: "pricing";
-  fetch: () => Promise<Pricing[]>;
+  fetch: (context: SourceContext) => Promise<Pricing[]>;
 }

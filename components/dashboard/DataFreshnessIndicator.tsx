@@ -5,6 +5,6 @@ export function DataFreshnessIndicator({ updatedAt, type, status }: { updatedAt?
   if (!updatedAt) return null;
   const stale = isStale(updatedAt, type === "benchmark" ? 7 : 14);
   const fallback = status === "fallback" || status === "failed";
-  const label = status === "failed" ? "Refresh failed · cached" : fallback ? "Cached fallback" : stale ? "Data may be outdated" : `Checked ${new Date(updatedAt).toLocaleDateString(undefined, { month: "short", day: "numeric" })}`;
+  const label = status === "failed" ? "Refresh failed · cached" : fallback ? "Fallback snapshot" : stale ? "Data may be outdated" : `Checked ${new Date(updatedAt).toLocaleDateString(undefined, { month: "short", day: "numeric" })}`;
   return <span className={`freshness-indicator ${stale || fallback ? "stale" : ""}`} title={stale || fallback ? `${type === "benchmark" ? "Benchmark" : "Pricing"} data may be outdated or using fallback data` : undefined}>{label}</span>;
 }

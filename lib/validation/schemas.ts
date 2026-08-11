@@ -5,6 +5,8 @@ export const modelSchema = z.object({
   name: z.string().min(1),
   provider: z.string().min(1),
   model_access: z.enum(["open", "closed", "unknown"]),
+  upstream_id: z.string().min(1).optional(),
+  upstream_slug: z.string().min(1).optional(),
   configuration: z.string().optional(),
   release_date: z.string().optional(),
 });

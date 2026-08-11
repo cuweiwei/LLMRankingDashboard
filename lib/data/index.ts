@@ -46,6 +46,9 @@ export function loadDashboardSnapshot(): DashboardSnapshot {
     },
   };
 
+  const sourceStatuses = Object.values(metadata.sources);
+  const dataSource = sourceStatuses.every((source) => source.status === "success") ? "live" : "seed";
+
   return {
     models,
     benchmarks: { enterpriseops, "coding-agent-index": coding, gdpval },
@@ -53,7 +56,7 @@ export function loadDashboardSnapshot(): DashboardSnapshot {
     definitions: benchmarkDefinitions,
     aliases: modelAliases,
     lastUpdated: metadata.generated_at,
-    dataSource: "seed",
+    dataSource,
     metadata,
   };
 }

@@ -60,7 +60,9 @@ Repository → Actions → Update LLM Data → Run workflow
 
 The updater attempts each source independently, normalizes and validates candidates, rejects suspicious record loss, writes through temporary files, then atomically replaces only successful datasets. Failed sources retain the previous valid JSON and record `fallback` status in `data/metadata.json`. The workflow commits only when files under `data/` changed; a data update then triggers the Pages deployment workflow through the `main` branch push.
 
-The optional `ARTIFICIAL_ANALYSIS_API_KEY` belongs only in GitHub Actions Secrets. The first run works without it using the checked-in fallback dataset; no client-side secret or paid service is required.
+The optional `ARTIFICIAL_ANALYSIS_API_KEY` belongs only in GitHub Actions Secrets. Set `ARTIFICIAL_ANALYSIS_API_TIER` to `free`, `pro`, or `commercial` as appropriate; it defaults to `free`. The first run works without it using the checked-in fallback dataset; no client-side secret or paid service is required. The updater uses only fields available to the configured Artificial Analysis API tier. If a tier does not return an individual benchmark field, that source remains fallback rather than inventing a score.
+
+For Personal Agent, an optional `ENTERPRISEOPS_SOURCE_URL` Actions secret may point to a permitted JSON endpoint containing model identity plus `score` or `task_success_rate` records. The updater accepts either a JSON array or `{ "data": [...] }`. It does not scrape the Artificial Analysis HTML page.
 
 ## What is included
 
@@ -104,7 +106,8 @@ Key boundaries:
 - `lib/benchmarks/definitions.ts` defines the three benchmark cards and source URLs.
 - `lib/sources/benchmarks/` contains independent EnterpriseOps, Coding Agent Index, and GDPval adapters.
 - `lib/sources/pricing/` contains the independent pricing adapter.
-- `lib/sources/artificialAnalysisApi.ts` uses the documented Artificial Analysis free API when `ARTIFICIAL_ANALYSIS_API_KEY` is present and never exposes that key to the browser.
+- `lib/sources/artificialAnalysisApi.ts` uses the documented Artificial Analysis API when `ARTIFICIAL_ANALYSIS_API_KEY` is present and never exposes that key to the browser.
+- `lib/models/registry.ts` merges upstream model identity into the local registry. `data/models.json` is durable metadata, not a model whitelist: new upstream models are added automatically when valid identity fields are returned. Unknown access stays `UNKNOWN` until a source provides evidence of downloadable weights.
 - `scripts/update-data.ts` orchestrates fetch → normalize → validate → atomic write → fallback.
 - `scripts/validate-data.ts` validates schema, duplicate IDs/ranks, model references, and suspiciously small datasets.
 - `data/metadata.json` records `generated_at`, attempted/successful timestamps, source status, errors, and record counts.
@@ -117,16 +120,17 @@ Replace or generate the corresponding JSON files with records that satisfy the s
 - benchmark: `benchmark_id`, `model_id`, `benchmark_rank`, `score`, `source_url`, `benchmark_updated_at`
 - pricing: `model_id`, `pricing_provider`, input/output prices, `pricing_checked_at`, `source_url`
 
-Use canonical model IDs from `data/models.json`. If an upstream source uses a different display name, add the alias to `lib/models/aliases.ts`; do not join records using raw display names.
+Use canonical model IDs from `data/models.json`. The updater first matches upstream IDs/slugs and known aliases; an unknown upstream model is assigned a stable `provider:slug` ID and added to the registry. Add a manual alias only when a naming variation cannot be resolved deterministically. Do not join records using raw display names only.
 
 For further live ingestion, implement the fetch logic in the adapters, validate records before caching them, and keep the local JSON snapshot as the failure fallback. Do not bypass authentication, bot protection, rate limits, robots restrictions or site terms.
 
 ## Adding another model
 
-1. Add one model metadata record to `data/models.json`.
-2. Add its benchmark results to each applicable benchmark JSON file.
-3. Add standard hosted API pricing to `data/pricing.json` when a reliable source exists.
-4. Add an alias only when upstream naming differs from the canonical ID.
+1. Normally, let the updater discover the model from the upstream source and commit the registry change.
+2. Add one model metadata record to `data/models.json` only for a reviewed offline seed or a source that does not expose model identity through the updater.
+3. Add its benchmark results to each applicable benchmark JSON file.
+4. Add standard hosted API pricing to `data/pricing.json` when a reliable source exists.
+5. Add an alias only when upstream naming differs from the canonical ID.
 
 Models without pricing remain visible in score ranking but are excluded from cost sorting. Unknown access is retained as `UNKNOWN` rather than guessed.
 
@@ -150,7 +154,13 @@ The dashboard links each board to the public Artificial Analysis benchmark page 
 | GDPval-AA v2 | FALLBACK without optional API key | Daily attempt | Yes |
 | Pricing | FALLBACK without optional API key | Daily attempt | Yes |
 
-`FALLBACK` is intentional and verified for the current local environment. The documented Artificial Analysis free API exposes coding index, agentic index, GDPval-AA Elo, and input/output pricing behind an API key; the updater has adapters for the coding, GDPval, and pricing fields. EnterpriseOps-Gym-AA is not exposed as a distinct field in that free endpoint, so it remains fallback until a reliable permitted source is available. The repository does not claim seed rows are live.
+`FALLBACK` is intentional and verified for the current local environment. The documented Artificial Analysis API provides a stable model endpoint and tier-dependent benchmark/pricing fields. The updater has adapters for Coding, GDPval and pricing when those fields are present for the configured key. EnterpriseOps-Gym-AA is not currently exposed as a distinct field in the API response used here. It first checks for a compatible field if one appears, then supports `ENTERPRISEOPS_SOURCE_URL` pointing to a permitted machine-readable JSON source. It deliberately does not scrape public HTML or bypass access controls. Without that source, Personal Agent remains fallback and the UI says so.
+
+### Dynamic discovery and licensing
+
+When an upstream response includes a new model such as `Claude Fable 5`, the updater creates a canonical registry record such as `anthropic:claude-fable-5` and then normalizes any benchmark scores returned for that model. A model with identity but no valid score is kept in the registry but is not shown in a leaderboard. A model with no reliable access evidence is marked `UNKNOWN`; the updater does not infer `OPEN` or `CLOSED` from provider name alone.
+
+Artificial Analysis documents attribution requirements and states that its Free API is for internal use only, while external redistribution requires the appropriate rights. A public GitHub Pages deployment should therefore be treated as a redistribution use case: confirm the applicable Artificial Analysis plan and terms before enabling public live data. The repository keeps the API key server-side in GitHub Actions and never ships it to the browser, but that does not by itself grant redistribution rights.
 
 The dashboard is automatically refreshed when a configured GitHub Actions source succeeds, but it is not realtime. GitHub scheduled workflows may run later than the exact cron minute. Open-weight pricing remains provider-dependent, HTML extraction can be fragile if added later, and benchmark configurations may differ between model variants.
 

@@ -49,6 +49,7 @@ export default function DashboardApp() {
   }, []);
 
   const providers = useMemo(() => [...new Set(snapshot.models.map((model) => model.provider))].sort(), []);
+  const hasFallback = Object.values(snapshot.metadata.sources).some((source) => source.status !== "success") || snapshot.dataSource !== "live";
   const entriesByBenchmark = useMemo(() => {
     return Object.fromEntries(
       benchmarkIds.map((id) => [id, buildLeaderboard(id, snapshot.models, snapshot.benchmarks[id], snapshot.pricing, filters)]),
@@ -73,9 +74,9 @@ export default function DashboardApp() {
 
         <GlobalFilters filters={filters} providers={providers} onChange={updateFilters} />
 
-        <div className="notice-row" aria-live="polite">
+        <div className={`notice-row ${hasFallback ? "notice-warning" : ""}`} aria-live="polite">
           <span className="seed-dot" aria-hidden="true" />
-          <span>Illustrative seed dataset active.</span>
+          <strong>{hasFallback ? "⚠ DEMO / FALLBACK DATA — rankings are not current" : "Live source snapshot"}</strong>
           <span className="notice-separator">·</span>
           <span>Static JSON snapshot</span>
           <span className="notice-separator">·</span>

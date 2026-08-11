@@ -34,6 +34,8 @@ jobs:
       - name: Fetch, normalize, validate, and atomically update data
         env:
           ARTIFICIAL_ANALYSIS_API_KEY: ${{ secrets.ARTIFICIAL_ANALYSIS_API_KEY }}
+          ARTIFICIAL_ANALYSIS_API_TIER: ${{ secrets.ARTIFICIAL_ANALYSIS_API_TIER }}
+          ENTERPRISEOPS_SOURCE_URL: ${{ secrets.ENTERPRISEOPS_SOURCE_URL }}
         run: npm run data:update
 
       - name: Run quality checks
