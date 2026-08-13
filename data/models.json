@@ -5451,5 +5451,41 @@
     "upstream_id": "ffd65ef7-fbdb-4145-98ae-b5d01cda770b",
     "upstream_slug": "llama-2-chat-7b",
     "release_date": "2023-07-18"
+  },
+  {
+    "id": "alibaba:qwen3-8-2-4t-a95b",
+    "name": "Qwen3.8 2.4T A95B",
+    "provider": "Alibaba",
+    "model_access": "unknown",
+    "upstream_id": "8df710d3-9dae-4498-9b4e-9818238e6f31",
+    "upstream_slug": "qwen3-8-2-4t-a95b",
+    "release_date": "2026-08-12"
+  },
+  {
+    "id": "google:gemini-3-7-flash",
+    "name": "Gemini 3.7 Flash (high)",
+    "provider": "Google",
+    "model_access": "unknown",
+    "upstream_id": "b2331108-72ed-415a-82d1-188633875bbc",
+    "upstream_slug": "gemini-3-7-flash",
+    "release_date": "2026-08-13"
+  },
+  {
+    "id": "google:gemini-3-7-flash-low",
+    "name": "Gemini 3.7 Flash (low)",
+    "provider": "Google",
+    "model_access": "unknown",
+    "upstream_id": "ddfdaf64-3f8e-40a6-a492-608ee83a1351",
+    "upstream_slug": "gemini-3-7-flash-low",
+    "release_date": "2026-08-13"
+  },
+  {
+    "id": "google:gemini-3-7-flash-medium",
+    "name": "Gemini 3.7 Flash (medium)",
+    "provider": "Google",
+    "model_access": "unknown",
+    "upstream_id": "eb0d4272-7204-42b9-b875-8866fed58548",
+    "upstream_slug": "gemini-3-7-flash-medium",
+    "release_date": "2026-08-13"
   }
 ]
