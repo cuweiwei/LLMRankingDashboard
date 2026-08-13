@@ -1,32 +1,32 @@
 {
-  "generated_at": "2026-08-12T23:04:10.977Z",
+  "generated_at": "2026-08-13T07:52:56.839Z",
   "sources": {
     "enterpriseops": {
-      "last_attempted_update": "2026-08-12T23:04:10.977Z",
+      "last_attempted_update": "2026-08-13T07:52:56.839Z",
       "last_successful_update": "2026-08-10T09:00:00.000Z",
       "status": "fallback",
-      "error": "ARTIFICIAL_ANALYSIS_API_KEY is not configured; EnterpriseOps requires a permitted machine-readable source because the API response has no EnterpriseOps-Gym-AA field",
+      "error": "Artificial Analysis API returned HTTP 401; EnterpriseOps requires a permitted machine-readable source because the API response has no EnterpriseOps-Gym-AA field",
       "record_count": 12
     },
     "coding-agent-index": {
-      "last_attempted_update": "2026-08-12T23:04:10.977Z",
+      "last_attempted_update": "2026-08-13T07:52:56.839Z",
       "last_successful_update": "2026-08-10T09:00:00.000Z",
       "status": "fallback",
-      "error": "ARTIFICIAL_ANALYSIS_API_KEY is not configured",
+      "error": "Artificial Analysis API returned HTTP 401",
       "record_count": 12
     },
     "gdpval": {
-      "last_attempted_update": "2026-08-12T23:04:10.977Z",
+      "last_attempted_update": "2026-08-13T07:52:56.839Z",
       "last_successful_update": "2026-08-10T09:00:00.000Z",
       "status": "fallback",
-      "error": "ARTIFICIAL_ANALYSIS_API_KEY is not configured",
+      "error": "Artificial Analysis API returned HTTP 401",
       "record_count": 12
     },
     "pricing": {
-      "last_attempted_update": "2026-08-12T23:04:10.977Z",
+      "last_attempted_update": "2026-08-13T07:52:56.839Z",
       "last_successful_update": "2026-08-10T09:00:00.000Z",
       "status": "fallback",
-      "error": "ARTIFICIAL_ANALYSIS_API_KEY is not configured",
+      "error": "Artificial Analysis API returned HTTP 401",
       "record_count": 11
     }
   }
