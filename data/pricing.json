@@ -1,13 +1,4042 @@
 [
-  { "model_id": "anthropic:claude-opus-4.7", "pricing_provider": "Anthropic", "input_cost_per_million_tokens": 5, "output_cost_per_million_tokens": 25, "blended_cost_per_million_tokens": 10, "pricing_checked_at": "2026-08-10T09:00:00.000Z", "source_url": "https://www.anthropic.com/pricing", "data_source": "seed" },
-  { "model_id": "openai:gpt-5.6", "pricing_provider": "OpenAI", "input_cost_per_million_tokens": 2.5, "output_cost_per_million_tokens": 15, "blended_cost_per_million_tokens": 5.625, "pricing_checked_at": "2026-08-10T09:00:00.000Z", "source_url": "https://openai.com/api/pricing/", "data_source": "seed" },
-  { "model_id": "google:gemini-3.1-pro", "pricing_provider": "Google AI", "input_cost_per_million_tokens": 1.25, "output_cost_per_million_tokens": 10, "blended_cost_per_million_tokens": 3.4375, "pricing_checked_at": "2026-08-10T09:00:00.000Z", "source_url": "https://ai.google.dev/gemini-api/docs/pricing", "data_source": "seed" },
-  { "model_id": "xai:grok-4.5", "pricing_provider": "xAI", "input_cost_per_million_tokens": 3, "output_cost_per_million_tokens": 15, "blended_cost_per_million_tokens": 6, "pricing_checked_at": "2026-08-10T09:00:00.000Z", "source_url": "https://docs.x.ai/docs/models", "data_source": "seed" },
-  { "model_id": "anthropic:claude-sonnet-4.6", "pricing_provider": "Anthropic", "input_cost_per_million_tokens": 3, "output_cost_per_million_tokens": 15, "blended_cost_per_million_tokens": 6, "pricing_checked_at": "2026-08-10T09:00:00.000Z", "source_url": "https://www.anthropic.com/pricing", "data_source": "seed" },
-  { "model_id": "openai:gpt-5.6-mini", "pricing_provider": "OpenAI", "input_cost_per_million_tokens": 0.4, "output_cost_per_million_tokens": 2, "blended_cost_per_million_tokens": 0.8, "pricing_checked_at": "2026-08-10T09:00:00.000Z", "source_url": "https://openai.com/api/pricing/", "data_source": "seed" },
-  { "model_id": "deepseek:deepseek-v3.2", "pricing_provider": "DeepSeek", "input_cost_per_million_tokens": 0.28, "output_cost_per_million_tokens": 0.42, "blended_cost_per_million_tokens": 0.315, "pricing_checked_at": "2026-08-10T09:00:00.000Z", "source_url": "https://api-docs.deepseek.com/quick_start/pricing", "data_source": "seed" },
-  { "model_id": "qwen:qwen3-max", "pricing_provider": "Alibaba Cloud", "input_cost_per_million_tokens": 1.2, "output_cost_per_million_tokens": 6, "blended_cost_per_million_tokens": 2.4, "pricing_checked_at": "2026-08-10T09:00:00.000Z", "source_url": "https://www.alibabacloud.com/help/en/model-studio/models", "data_source": "seed" },
-  { "model_id": "mistral:mistral-large-3", "pricing_provider": "Mistral AI", "input_cost_per_million_tokens": 0.5, "output_cost_per_million_tokens": 1.5, "blended_cost_per_million_tokens": 0.75, "pricing_checked_at": "2026-08-10T09:00:00.000Z", "source_url": "https://mistral.ai/technology/", "data_source": "seed" },
-  { "model_id": "moonshot:kimi-k2.5", "pricing_provider": "OpenRouter", "input_cost_per_million_tokens": 0.55, "output_cost_per_million_tokens": 2.65, "blended_cost_per_million_tokens": 1.075, "pricing_checked_at": "2026-08-10T09:00:00.000Z", "source_url": "https://openrouter.ai/models", "data_source": "seed" },
-  { "model_id": "qwen:qwen3-coder", "pricing_provider": "Together AI", "input_cost_per_million_tokens": 0.3, "output_cost_per_million_tokens": 1.2, "blended_cost_per_million_tokens": 0.525, "pricing_checked_at": "2026-08-10T09:00:00.000Z", "source_url": "https://www.together.ai/pricing", "data_source": "seed" }
+  {
+    "model_id": "z-ai:glm-4-5v",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.6,
+    "output_cost_per_million_tokens": 1.8,
+    "blended_cost_per_million_tokens": 0.8999999999999999,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "google:gemini-3-5-flash",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 1.5,
+    "output_cost_per_million_tokens": 9,
+    "blended_cost_per_million_tokens": 3.375,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "xiaomi:mimo-v2-5-pro",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.43,
+    "output_cost_per_million_tokens": 0.87,
+    "blended_cost_per_million_tokens": 0.54,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "inception:mercury-2",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.25,
+    "output_cost_per_million_tokens": 0.75,
+    "blended_cost_per_million_tokens": 0.375,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "alibaba:qwen3-5-omni-plus",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.4,
+    "output_cost_per_million_tokens": 4.8,
+    "blended_cost_per_million_tokens": 1.5,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "amazon:nova-2-0-omni-reasoning-medium",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.3,
+    "output_cost_per_million_tokens": 2.5,
+    "blended_cost_per_million_tokens": 0.85,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-5-2-codex",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 1.75,
+    "output_cost_per_million_tokens": 14,
+    "blended_cost_per_million_tokens": 4.8125,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "alibaba:qwen3-5-122b-a10b-non-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.4,
+    "output_cost_per_million_tokens": 3.2,
+    "blended_cost_per_million_tokens": 1.1,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "google:gemma-4-12b-non-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.1,
+    "output_cost_per_million_tokens": 0.3,
+    "blended_cost_per_million_tokens": 0.15000000000000002,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "google:gemini-3-5-flash-minimal",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 1.5,
+    "output_cost_per_million_tokens": 9,
+    "blended_cost_per_million_tokens": 3.375,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-35-turbo",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.5,
+    "output_cost_per_million_tokens": 1.5,
+    "blended_cost_per_million_tokens": 0.75,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "spacexai:grok-4-20-0309",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 2,
+    "output_cost_per_million_tokens": 6,
+    "blended_cost_per_million_tokens": 3,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-5-1-codex",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 1.25,
+    "output_cost_per_million_tokens": 10,
+    "blended_cost_per_million_tokens": 3.4375,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "meta:muse-spark-1-2",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 1.25,
+    "output_cost_per_million_tokens": 4.25,
+    "blended_cost_per_million_tokens": 2,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-5-6-luna-low",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.2,
+    "output_cost_per_million_tokens": 1.2,
+    "blended_cost_per_million_tokens": 0.45,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "mistral:mistral-medium-3-1",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.4,
+    "output_cost_per_million_tokens": 2,
+    "blended_cost_per_million_tokens": 0.8,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-5-nano-minimal",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.05,
+    "output_cost_per_million_tokens": 0.4,
+    "blended_cost_per_million_tokens": 0.1375,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "google:gemini-2-5-pro-05-06",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 1.25,
+    "output_cost_per_million_tokens": 10,
+    "blended_cost_per_million_tokens": 3.4375,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:o3-mini-high",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 1.1,
+    "output_cost_per_million_tokens": 4.4,
+    "blended_cost_per_million_tokens": 1.9250000000000003,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:o1-preview",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 16.5,
+    "output_cost_per_million_tokens": 66,
+    "blended_cost_per_million_tokens": 28.875,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "deepseek:deepseek-v3-2-0925",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.28,
+    "output_cost_per_million_tokens": 0.42,
+    "blended_cost_per_million_tokens": 0.315,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-5-6-sol-low",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 5,
+    "output_cost_per_million_tokens": 30,
+    "blended_cost_per_million_tokens": 11.25,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "alibaba:qwen3-coder-480b-a35b-instruct",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 1.5,
+    "output_cost_per_million_tokens": 7.5,
+    "blended_cost_per_million_tokens": 3,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "google:gemini-3-5-flash-lite",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.3,
+    "output_cost_per_million_tokens": 2.5,
+    "blended_cost_per_million_tokens": 0.85,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "mistral:devstral-2",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0,
+    "output_cost_per_million_tokens": 0,
+    "blended_cost_per_million_tokens": 0,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "anthropic:claude-35-sonnet",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 3,
+    "output_cost_per_million_tokens": 15,
+    "blended_cost_per_million_tokens": 6,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "deepseek:deepseek-v3-1-terminus-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 1.64,
+    "output_cost_per_million_tokens": 2.75,
+    "blended_cost_per_million_tokens": 1.9175,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "alibaba:qwen3-omni-30b-a3b-instruct",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.25,
+    "output_cost_per_million_tokens": 0.97,
+    "blended_cost_per_million_tokens": 0.43,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "spacexai:grok-build-0-1-06-16",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 1,
+    "output_cost_per_million_tokens": 2,
+    "blended_cost_per_million_tokens": 1.25,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "amazon:nova-2-0-pro-reasoning-medium",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 1.25,
+    "output_cost_per_million_tokens": 10,
+    "blended_cost_per_million_tokens": 3.4375,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "thinking-machines:inkling",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 1,
+    "output_cost_per_million_tokens": 4.05,
+    "blended_cost_per_million_tokens": 1.7625,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "kimi:kimi-k2-6",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.95,
+    "output_cost_per_million_tokens": 4,
+    "blended_cost_per_million_tokens": 1.7125,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "deepseek:deepseek-r1-0120",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 1.68,
+    "output_cost_per_million_tokens": 4.7,
+    "blended_cost_per_million_tokens": 2.435,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "alibaba:qwen3-5-397b-a17b",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.6,
+    "output_cost_per_million_tokens": 3.6,
+    "blended_cost_per_million_tokens": 1.35,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "kimi:kimi-k2-6-non-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.95,
+    "output_cost_per_million_tokens": 4,
+    "blended_cost_per_million_tokens": 1.7125,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "minimax:minimax-m2-5",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.3,
+    "output_cost_per_million_tokens": 1.2,
+    "blended_cost_per_million_tokens": 0.5249999999999999,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "mistral:mistral-small-4-non-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.15,
+    "output_cost_per_million_tokens": 0.6,
+    "blended_cost_per_million_tokens": 0.26249999999999996,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "anthropic:claude-opus-5-xhigh",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 5,
+    "output_cost_per_million_tokens": 25,
+    "blended_cost_per_million_tokens": 10,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "anthropic:claude-sonnet-5-low",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 2,
+    "output_cost_per_million_tokens": 10,
+    "blended_cost_per_million_tokens": 4,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-oss-20b-low",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.07,
+    "output_cost_per_million_tokens": 0.2,
+    "blended_cost_per_million_tokens": 0.10250000000000001,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "alibaba:qwen3-5-27b",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.3,
+    "output_cost_per_million_tokens": 2.4,
+    "blended_cost_per_million_tokens": 0.825,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:o3",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 2,
+    "output_cost_per_million_tokens": 8,
+    "blended_cost_per_million_tokens": 3.5,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "deepseek:deepseek-v3-1-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.59,
+    "output_cost_per_million_tokens": 1.69,
+    "blended_cost_per_million_tokens": 0.865,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "stepfun:step-3-5-flash",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.1,
+    "output_cost_per_million_tokens": 0.3,
+    "blended_cost_per_million_tokens": 0.15000000000000002,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "mistral:mistral-large-2407",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 2,
+    "output_cost_per_million_tokens": 6,
+    "blended_cost_per_million_tokens": 3,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "upstage:solar-pro4",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.3,
+    "output_cost_per_million_tokens": 1.2,
+    "blended_cost_per_million_tokens": 0.5249999999999999,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "google:gemini-2-5-flash-lite",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.1,
+    "output_cost_per_million_tokens": 0.4,
+    "blended_cost_per_million_tokens": 0.17500000000000002,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "nous-research:hermes-3-llama-3-1-70b",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.7,
+    "output_cost_per_million_tokens": 0.7,
+    "blended_cost_per_million_tokens": 0.7,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "cohere:north-mini-code",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0,
+    "output_cost_per_million_tokens": 0,
+    "blended_cost_per_million_tokens": 0,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-5-5",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 5,
+    "output_cost_per_million_tokens": 30,
+    "blended_cost_per_million_tokens": 11.25,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "mistral:mistral-medium",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 1.5,
+    "output_cost_per_million_tokens": 7.5,
+    "blended_cost_per_million_tokens": 3,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "amazon:nova-2-0-omni",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.3,
+    "output_cost_per_million_tokens": 2.5,
+    "blended_cost_per_million_tokens": 0.85,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "anthropic:claude-3-haiku",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.25,
+    "output_cost_per_million_tokens": 1.25,
+    "blended_cost_per_million_tokens": 0.5,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "anthropic:claude-opus-5-low",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 5,
+    "output_cost_per_million_tokens": 25,
+    "blended_cost_per_million_tokens": 10,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "alibaba:qwen3-5-9b-non-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.17,
+    "output_cost_per_million_tokens": 0.25,
+    "blended_cost_per_million_tokens": 0.19,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "mistral:mistral-7b-instruct",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.25,
+    "output_cost_per_million_tokens": 0.25,
+    "blended_cost_per_million_tokens": 0.25,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "google:gemini-2-5-flash-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.3,
+    "output_cost_per_million_tokens": 2.5,
+    "blended_cost_per_million_tokens": 0.85,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "google:gemma-3-4b",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0,
+    "output_cost_per_million_tokens": 0,
+    "blended_cost_per_million_tokens": 0,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "alibaba:qwen3-5-122b-a10b",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.4,
+    "output_cost_per_million_tokens": 3.2,
+    "blended_cost_per_million_tokens": 1.1,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "xiaomi:mimo-v2-5-0424",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.14,
+    "output_cost_per_million_tokens": 0.28,
+    "blended_cost_per_million_tokens": 0.17500000000000002,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "nous-research:hermes-4-llama-3-1-70b",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.13,
+    "output_cost_per_million_tokens": 0.4,
+    "blended_cost_per_million_tokens": 0.1975,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "nvidia:nvidia-nemotron-3-nano-30b-a3b",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.05,
+    "output_cost_per_million_tokens": 0.2,
+    "blended_cost_per_million_tokens": 0.08750000000000001,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "anthropic:claude-sonnet-5",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 2,
+    "output_cost_per_million_tokens": 10,
+    "blended_cost_per_million_tokens": 4,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "spacexai:grok-3",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 4,
+    "output_cost_per_million_tokens": 20,
+    "blended_cost_per_million_tokens": 8,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "mistral:mistral-small-3-1",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.1,
+    "output_cost_per_million_tokens": 0.3,
+    "blended_cost_per_million_tokens": 0.15000000000000002,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "anthropic:claude-opus-4-5-thinking",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 5,
+    "output_cost_per_million_tokens": 25,
+    "blended_cost_per_million_tokens": 10,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "alibaba:qwen3-next-80b-a3b-instruct",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.5,
+    "output_cost_per_million_tokens": 2,
+    "blended_cost_per_million_tokens": 0.875,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "nvidia:llama-nemotron-super-49b-v1-5",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.4,
+    "output_cost_per_million_tokens": 0.4,
+    "blended_cost_per_million_tokens": 0.4,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-5-6-terra-medium",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 2,
+    "output_cost_per_million_tokens": 12,
+    "blended_cost_per_million_tokens": 4.5,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "google:gemini-2-5-pro",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 1.25,
+    "output_cost_per_million_tokens": 10,
+    "blended_cost_per_million_tokens": 3.4375,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "minimax:minimax-m2-1",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.3,
+    "output_cost_per_million_tokens": 1.2,
+    "blended_cost_per_million_tokens": 0.5249999999999999,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "minimax:minimax-m3",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.3,
+    "output_cost_per_million_tokens": 1.2,
+    "blended_cost_per_million_tokens": 0.5249999999999999,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-5-mini",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.25,
+    "output_cost_per_million_tokens": 2,
+    "blended_cost_per_million_tokens": 0.6875,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "nvidia:nemotron-3-5-lightning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.05,
+    "output_cost_per_million_tokens": 0.2,
+    "blended_cost_per_million_tokens": 0.08750000000000001,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "google:gemma-3-27b",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0,
+    "output_cost_per_million_tokens": 0,
+    "blended_cost_per_million_tokens": 0,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "z-ai:glm-4-7-flash",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.07,
+    "output_cost_per_million_tokens": 0.4,
+    "blended_cost_per_million_tokens": 0.15250000000000002,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "microsoft:phi-4-multimodal",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0,
+    "output_cost_per_million_tokens": 0,
+    "blended_cost_per_million_tokens": 0,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "ibm:granite-3-3-8b-instruct",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.03,
+    "output_cost_per_million_tokens": 0.25,
+    "blended_cost_per_million_tokens": 0.08499999999999999,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "alibaba:qwen3-5-9b",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.14,
+    "output_cost_per_million_tokens": 0.2,
+    "blended_cost_per_million_tokens": 0.15500000000000003,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:o3-mini",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 1.1,
+    "output_cost_per_million_tokens": 4.4,
+    "blended_cost_per_million_tokens": 1.9250000000000003,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "spacexai:grok-4-fast",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.2,
+    "output_cost_per_million_tokens": 0.5,
+    "blended_cost_per_million_tokens": 0.275,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "anthropic:claude-sonnet-4.6",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 3,
+    "output_cost_per_million_tokens": 15,
+    "blended_cost_per_million_tokens": 6,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "inclusionai:ling-2-6-1t",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.3,
+    "output_cost_per_million_tokens": 2.5,
+    "blended_cost_per_million_tokens": 0.85,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "google:gemma-3-12b",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0,
+    "output_cost_per_million_tokens": 0,
+    "blended_cost_per_million_tokens": 0,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "nvidia:nvidia-nemotron-nano-9b-v2",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.05,
+    "output_cost_per_million_tokens": 0.2,
+    "blended_cost_per_million_tokens": 0.08750000000000001,
+    "pricing_checked_at": "2026-08-13T08:18:02.789Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "cohere:command-a-plus",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 2.5,
+    "output_cost_per_million_tokens": 10,
+    "blended_cost_per_million_tokens": 4.375,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "anthropic:claude-opus-4-7-non-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 5,
+    "output_cost_per_million_tokens": 25,
+    "blended_cost_per_million_tokens": 10,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "ai9stars:g9v3-3b",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0,
+    "output_cost_per_million_tokens": 0,
+    "blended_cost_per_million_tokens": 0,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "z-ai:glm-4-5v-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.6,
+    "output_cost_per_million_tokens": 1.8,
+    "blended_cost_per_million_tokens": 0.8999999999999999,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "alibaba:qwen3-5-4b-non-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.03,
+    "output_cost_per_million_tokens": 0.15,
+    "blended_cost_per_million_tokens": 0.06,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "alibaba:qwen3-5-397b-a17b-non-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.6,
+    "output_cost_per_million_tokens": 3.6,
+    "blended_cost_per_million_tokens": 1.35,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "alibaba:qwen3-235b-a22b-instruct-2507",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.7,
+    "output_cost_per_million_tokens": 2.8,
+    "blended_cost_per_million_tokens": 1.2249999999999999,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "amazon:nova-micro",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.04,
+    "output_cost_per_million_tokens": 0.14,
+    "blended_cost_per_million_tokens": 0.065,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "sarvam:sarvam-m-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0,
+    "output_cost_per_million_tokens": 0,
+    "blended_cost_per_million_tokens": 0,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "alibaba:qwen-turbo",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.05,
+    "output_cost_per_million_tokens": 0.2,
+    "blended_cost_per_million_tokens": 0.08750000000000001,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "mistral:mistral-small-2402",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.15,
+    "output_cost_per_million_tokens": 0.6,
+    "blended_cost_per_million_tokens": 0.26249999999999996,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-oss-20b",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.06,
+    "output_cost_per_million_tokens": 0.19,
+    "blended_cost_per_million_tokens": 0.0925,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-5-4-mini-medium",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.75,
+    "output_cost_per_million_tokens": 4.5,
+    "blended_cost_per_million_tokens": 1.6875,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "allen-institute-for-ai:olmo-3-1-32b-think",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0,
+    "output_cost_per_million_tokens": 0,
+    "blended_cost_per_million_tokens": 0,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "alibaba:qwen3-6-27b-non-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.6,
+    "output_cost_per_million_tokens": 3.6,
+    "blended_cost_per_million_tokens": 1.35,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "nex-agi:nex-n2-pro",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.5,
+    "output_cost_per_million_tokens": 2.5,
+    "blended_cost_per_million_tokens": 1,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-4-1",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 2,
+    "output_cost_per_million_tokens": 8,
+    "blended_cost_per_million_tokens": 3.5,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "liquid-ai:lfm2-5-vl-1-6b",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0,
+    "output_cost_per_million_tokens": 0,
+    "blended_cost_per_million_tokens": 0,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "alibaba:qwen3-vl-8b-instruct",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.18,
+    "output_cost_per_million_tokens": 0.7,
+    "blended_cost_per_million_tokens": 0.31,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "alibaba:qwen3-30b-a3b-instruct-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.2,
+    "output_cost_per_million_tokens": 2.4,
+    "blended_cost_per_million_tokens": 0.75,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "mistral:mixtral-8x7b-instruct",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.45,
+    "output_cost_per_million_tokens": 0.7,
+    "blended_cost_per_million_tokens": 0.5125,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "mistral:mistral-small-4",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.15,
+    "output_cost_per_million_tokens": 0.6,
+    "blended_cost_per_million_tokens": 0.26249999999999996,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "z-ai:glm-5",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 1,
+    "output_cost_per_million_tokens": 3.2,
+    "blended_cost_per_million_tokens": 1.55,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "anthropic:claude-opus-4-5",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 5,
+    "output_cost_per_million_tokens": 25,
+    "blended_cost_per_million_tokens": 10,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-5-6-luna",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.2,
+    "output_cost_per_million_tokens": 1.2,
+    "blended_cost_per_million_tokens": 0.45,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "z-ai:glm-4-6v",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.3,
+    "output_cost_per_million_tokens": 0.9,
+    "blended_cost_per_million_tokens": 0.44999999999999996,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "alibaba:qwen3-235b-a22b-instruct",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.7,
+    "output_cost_per_million_tokens": 2.8,
+    "blended_cost_per_million_tokens": 1.2249999999999999,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "anthropic:claude-opus-4-6",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 5,
+    "output_cost_per_million_tokens": 25,
+    "blended_cost_per_million_tokens": 10,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "mistral:mistral-small-3-2",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.1,
+    "output_cost_per_million_tokens": 0.3,
+    "blended_cost_per_million_tokens": 0.15000000000000002,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "deepseek:deepseek-v3",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.36,
+    "output_cost_per_million_tokens": 0.89,
+    "blended_cost_per_million_tokens": 0.49250000000000005,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "kimi:kimi-k2",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.57,
+    "output_cost_per_million_tokens": 2.3,
+    "blended_cost_per_million_tokens": 1.0025,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "alibaba:qwen3-14b-instruct-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.35,
+    "output_cost_per_million_tokens": 4.2,
+    "blended_cost_per_million_tokens": 1.3125,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "sarvam:sarvam-105b",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.04,
+    "output_cost_per_million_tokens": 0.17,
+    "blended_cost_per_million_tokens": 0.07250000000000001,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "meta:llama-3-1-instruct-70b",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.56,
+    "output_cost_per_million_tokens": 0.56,
+    "blended_cost_per_million_tokens": 0.56,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "alibaba:qwen3-5-35b-a3b",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.25,
+    "output_cost_per_million_tokens": 2,
+    "blended_cost_per_million_tokens": 0.6875,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "xiaomi:mimo-v2-5-pro-non-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.43,
+    "output_cost_per_million_tokens": 0.87,
+    "blended_cost_per_million_tokens": 0.54,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "inclusionai:ring-flash-2-0",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.14,
+    "output_cost_per_million_tokens": 0.57,
+    "blended_cost_per_million_tokens": 0.2475,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-5",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 1.25,
+    "output_cost_per_million_tokens": 10,
+    "blended_cost_per_million_tokens": 3.4375,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "mistral:mistral-large-3",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.5,
+    "output_cost_per_million_tokens": 1.5,
+    "blended_cost_per_million_tokens": 0.75,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-5-4-non-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 2.5,
+    "output_cost_per_million_tokens": 15,
+    "blended_cost_per_million_tokens": 5.625,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-5-2",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 1.75,
+    "output_cost_per_million_tokens": 14,
+    "blended_cost_per_million_tokens": 4.8125,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "swiss-ai-initiative:apertus-70b-instruct",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.82,
+    "output_cost_per_million_tokens": 2.92,
+    "blended_cost_per_million_tokens": 1.345,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "deepseek:deepseek-r1-distill-llama-70b",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.7,
+    "output_cost_per_million_tokens": 1.1,
+    "blended_cost_per_million_tokens": 0.7999999999999999,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "minimax:minimax-m2-7",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.3,
+    "output_cost_per_million_tokens": 1.2,
+    "blended_cost_per_million_tokens": 0.5249999999999999,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-5-1",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 1.25,
+    "output_cost_per_million_tokens": 10,
+    "blended_cost_per_million_tokens": 3.4375,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "google:gemini-3-5-flash-medium",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 1.5,
+    "output_cost_per_million_tokens": 9,
+    "blended_cost_per_million_tokens": 3.375,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "anthropic:claude-4-opus",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 15,
+    "output_cost_per_million_tokens": 75,
+    "blended_cost_per_million_tokens": 30,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "alibaba:qwen3-5-27b-non-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.3,
+    "output_cost_per_million_tokens": 2.4,
+    "blended_cost_per_million_tokens": 0.825,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "kimi:kimi-k3-low",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 3,
+    "output_cost_per_million_tokens": 15,
+    "blended_cost_per_million_tokens": 6,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "alibaba:qwen3-vl-30b-a3b-instruct",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.2,
+    "output_cost_per_million_tokens": 0.8,
+    "blended_cost_per_million_tokens": 0.35000000000000003,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "spacexai:grok-4-20-0309-non-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 2,
+    "output_cost_per_million_tokens": 6,
+    "blended_cost_per_million_tokens": 3,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "google:gemma-4-e4b-non-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.02,
+    "output_cost_per_million_tokens": 0.1,
+    "blended_cost_per_million_tokens": 0.04,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-5-4-low",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 2.5,
+    "output_cost_per_million_tokens": 15,
+    "blended_cost_per_million_tokens": 5.625,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "anthropic:claude-opus-4-6-adaptive",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 5,
+    "output_cost_per_million_tokens": 25,
+    "blended_cost_per_million_tokens": 10,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "ai21-labs:jamba-1-5-mini",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.2,
+    "output_cost_per_million_tokens": 0.4,
+    "blended_cost_per_million_tokens": 0.25,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "amazon:nova-pro",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.8,
+    "output_cost_per_million_tokens": 3.2,
+    "blended_cost_per_million_tokens": 1.4000000000000001,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "spacexai:grok-4-fast-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.2,
+    "output_cost_per_million_tokens": 0.5,
+    "blended_cost_per_million_tokens": 0.275,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "meta:muse-glimmer",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.32,
+    "output_cost_per_million_tokens": 1.35,
+    "blended_cost_per_million_tokens": 0.5775,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-5-6-luna-medium",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.2,
+    "output_cost_per_million_tokens": 1.2,
+    "blended_cost_per_million_tokens": 0.45,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "google:gemini-3-1-flash-lite-preview",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.25,
+    "output_cost_per_million_tokens": 1.5,
+    "blended_cost_per_million_tokens": 0.5625,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-5-3-codex",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 1.75,
+    "output_cost_per_million_tokens": 14,
+    "blended_cost_per_million_tokens": 4.8125,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "mistral:mistral-medium-3",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.4,
+    "output_cost_per_million_tokens": 2,
+    "blended_cost_per_million_tokens": 0.8,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "z-ai:glm-5-1",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 1.38,
+    "output_cost_per_million_tokens": 4.4,
+    "blended_cost_per_million_tokens": 2.135,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:o1",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 15,
+    "output_cost_per_million_tokens": 60,
+    "blended_cost_per_million_tokens": 26.25,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "alibaba:qwen3-max-preview",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 1.2,
+    "output_cost_per_million_tokens": 6,
+    "blended_cost_per_million_tokens": 2.4,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "nvidia:nvidia-nemotron-3-ultra-550b-a55b",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.6,
+    "output_cost_per_million_tokens": 2.75,
+    "blended_cost_per_million_tokens": 1.1375,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-5-4-pro",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 30,
+    "output_cost_per_million_tokens": 180,
+    "blended_cost_per_million_tokens": 67.5,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "longcat:longcat-2-0",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.75,
+    "output_cost_per_million_tokens": 2.95,
+    "blended_cost_per_million_tokens": 1.3,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "amazon:nova-lite",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.06,
+    "output_cost_per_million_tokens": 0.24,
+    "blended_cost_per_million_tokens": 0.105,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "bytedance-seed:seed-oss-36b-instruct",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.21,
+    "output_cost_per_million_tokens": 0.57,
+    "blended_cost_per_million_tokens": 0.3,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-5-codex",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 1.25,
+    "output_cost_per_million_tokens": 10,
+    "blended_cost_per_million_tokens": 3.4375,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "z-ai:glm-4-5-air",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.17,
+    "output_cost_per_million_tokens": 0.98,
+    "blended_cost_per_million_tokens": 0.3725,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "deepseek:deepseek-v4-pro-0424-high",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.43,
+    "output_cost_per_million_tokens": 0.87,
+    "blended_cost_per_million_tokens": 0.54,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "ibm:granite-4-0-h-small",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.06,
+    "output_cost_per_million_tokens": 0.25,
+    "blended_cost_per_million_tokens": 0.1075,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "alibaba:qwen3-30b-a3b-2507-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.2,
+    "output_cost_per_million_tokens": 2.4,
+    "blended_cost_per_million_tokens": 0.75,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "mistral:mistral-large",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 4,
+    "output_cost_per_million_tokens": 12,
+    "blended_cost_per_million_tokens": 6,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "alibaba:qwen3-8-max",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 2,
+    "output_cost_per_million_tokens": 6,
+    "blended_cost_per_million_tokens": 3,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "spacexai:grok-4-3-medium",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 1.25,
+    "output_cost_per_million_tokens": 2.5,
+    "blended_cost_per_million_tokens": 1.5625,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-5-medium",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 1.25,
+    "output_cost_per_million_tokens": 10,
+    "blended_cost_per_million_tokens": 3.4375,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "spacexai:grok-4",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 3,
+    "output_cost_per_million_tokens": 15,
+    "blended_cost_per_million_tokens": 6,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "meta:llama-3-2-instruct-11b-vision",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.34,
+    "output_cost_per_million_tokens": 0.34,
+    "blended_cost_per_million_tokens": 0.34,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "alibaba:qwen3-6-max",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 1.3,
+    "output_cost_per_million_tokens": 7.8,
+    "blended_cost_per_million_tokens": 2.925,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "amazon:nova-2-0-lite-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.3,
+    "output_cost_per_million_tokens": 2.5,
+    "blended_cost_per_million_tokens": 0.85,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "nvidia:nvidia-nemotron-3-super-120b-a12b",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.2,
+    "output_cost_per_million_tokens": 0.8,
+    "blended_cost_per_million_tokens": 0.35000000000000003,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "spacexai:grok-4-20-non-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 1.25,
+    "output_cost_per_million_tokens": 2.5,
+    "blended_cost_per_million_tokens": 1.5625,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "alibaba:qwen3-5-4b",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.03,
+    "output_cost_per_million_tokens": 0.15,
+    "blended_cost_per_million_tokens": 0.06,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "kimi:kimi-k2-0905",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.6,
+    "output_cost_per_million_tokens": 2.5,
+    "blended_cost_per_million_tokens": 1.075,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "alibaba:qwen3-6-35b-a3b-non-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.38,
+    "output_cost_per_million_tokens": 2.25,
+    "blended_cost_per_million_tokens": 0.8475,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "mistral:ministral-3-3b",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.1,
+    "output_cost_per_million_tokens": 0.1,
+    "blended_cost_per_million_tokens": 0.1,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "alibaba:qwen3-7-max",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 2.5,
+    "output_cost_per_million_tokens": 7.5,
+    "blended_cost_per_million_tokens": 3.75,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "z-ai:glm-4-6-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.55,
+    "output_cost_per_million_tokens": 2.2,
+    "blended_cost_per_million_tokens": 0.9625000000000001,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-4",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 30,
+    "output_cost_per_million_tokens": 60,
+    "blended_cost_per_million_tokens": 37.5,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "google:gemini-2-5-flash",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.3,
+    "output_cost_per_million_tokens": 2.5,
+    "blended_cost_per_million_tokens": 0.85,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-5-5-medium",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 5,
+    "output_cost_per_million_tokens": 30,
+    "blended_cost_per_million_tokens": 11.25,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "nous-research:hermes-4-llama-3-1-70b-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.13,
+    "output_cost_per_million_tokens": 0.4,
+    "blended_cost_per_million_tokens": 0.1975,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "stepfun:step-3-7-flash",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.2,
+    "output_cost_per_million_tokens": 1.15,
+    "blended_cost_per_million_tokens": 0.4375,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "deepseek:deepseek-v3.2",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.28,
+    "output_cost_per_million_tokens": 0.42,
+    "blended_cost_per_million_tokens": 0.315,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "alibaba:qwen3-vl-32b-instruct",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.7,
+    "output_cost_per_million_tokens": 2.8,
+    "blended_cost_per_million_tokens": 1.2249999999999999,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-5-2-non-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 1.75,
+    "output_cost_per_million_tokens": 14,
+    "blended_cost_per_million_tokens": 4.8125,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "google:gemma-4-26b-a4b",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.13,
+    "output_cost_per_million_tokens": 0.4,
+    "blended_cost_per_million_tokens": 0.1975,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "deepseek:deepseek-v4-pro-0424-non-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.43,
+    "output_cost_per_million_tokens": 0.87,
+    "blended_cost_per_million_tokens": 0.54,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "nvidia:nvidia-nemotron-nano-12b-v2-vl-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.2,
+    "output_cost_per_million_tokens": 0.6,
+    "blended_cost_per_million_tokens": 0.30000000000000004,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-5-6-sol-medium",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 5,
+    "output_cost_per_million_tokens": 30,
+    "blended_cost_per_million_tokens": 11.25,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-5-5-non-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 5,
+    "output_cost_per_million_tokens": 30,
+    "blended_cost_per_million_tokens": 11.25,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "alibaba:qwen3-5-omni-flash",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.1,
+    "output_cost_per_million_tokens": 0.8,
+    "blended_cost_per_million_tokens": 0.275,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "z-ai:glm-4-7",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.6,
+    "output_cost_per_million_tokens": 2.2,
+    "blended_cost_per_million_tokens": 1,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "amazon:nova-2-0-lite-reasoning-low",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.3,
+    "output_cost_per_million_tokens": 2.5,
+    "blended_cost_per_million_tokens": 0.85,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "mistral:magistral-small-2509",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.5,
+    "output_cost_per_million_tokens": 1.5,
+    "blended_cost_per_million_tokens": 0.75,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "google:gemma-4-26b-a4b-non-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.13,
+    "output_cost_per_million_tokens": 0.4,
+    "blended_cost_per_million_tokens": 0.1975,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "anthropic:claude-opus-5-high",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 5,
+    "output_cost_per_million_tokens": 25,
+    "blended_cost_per_million_tokens": 10,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "mistral:ministral-3-14b",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.2,
+    "output_cost_per_million_tokens": 0.2,
+    "blended_cost_per_million_tokens": 0.2,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "google:gemini-2-5-flash-lite-preview-09-2025",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.1,
+    "output_cost_per_million_tokens": 0.4,
+    "blended_cost_per_million_tokens": 0.17500000000000002,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "thinking-machines:inkling-small",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.3,
+    "output_cost_per_million_tokens": 1.2,
+    "blended_cost_per_million_tokens": 0.5249999999999999,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-4-1-nano",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.1,
+    "output_cost_per_million_tokens": 0.4,
+    "blended_cost_per_million_tokens": 0.17500000000000002,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "nvidia:llama-3-1-nemotron-instruct-70b",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 1.2,
+    "output_cost_per_million_tokens": 1.2,
+    "blended_cost_per_million_tokens": 1.2,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "meta:llama-3-1-instruct-8b",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.02,
+    "output_cost_per_million_tokens": 0.05,
+    "blended_cost_per_million_tokens": 0.0275,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "deepseek:deepseek-v3-0324",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.27,
+    "output_cost_per_million_tokens": 1.12,
+    "blended_cost_per_million_tokens": 0.48250000000000004,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "cohere:command-r-plus-04-2024",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 3,
+    "output_cost_per_million_tokens": 15,
+    "blended_cost_per_million_tokens": 6,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "sarvam:sarvam-30b",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.03,
+    "output_cost_per_million_tokens": 0.11,
+    "blended_cost_per_million_tokens": 0.05,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-4-turbo",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 10,
+    "output_cost_per_million_tokens": 30,
+    "blended_cost_per_million_tokens": 15,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "amazon:nova-2-0-lite",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.3,
+    "output_cost_per_million_tokens": 2.5,
+    "blended_cost_per_million_tokens": 0.85,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "nvidia:nvidia-nemotron-3-nano-30b-a3b-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.05,
+    "output_cost_per_million_tokens": 0.2,
+    "blended_cost_per_million_tokens": 0.08750000000000001,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "anthropic:claude-3-opus",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 15,
+    "output_cost_per_million_tokens": 75,
+    "blended_cost_per_million_tokens": 30,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "google:gemini-3-6-flash",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 1.5,
+    "output_cost_per_million_tokens": 7.5,
+    "blended_cost_per_million_tokens": 3,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "google:gemini-3-flash",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.5,
+    "output_cost_per_million_tokens": 3,
+    "blended_cost_per_million_tokens": 1.125,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "xai:grok-4.5",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 2,
+    "output_cost_per_million_tokens": 6,
+    "blended_cost_per_million_tokens": 3,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "qwen:qwen3-max",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 1.2,
+    "output_cost_per_million_tokens": 6,
+    "blended_cost_per_million_tokens": 2.4,
+    "pricing_checked_at": "2026-08-13T08:18:02.790Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "mistral:mistral-small",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.2,
+    "output_cost_per_million_tokens": 0.6,
+    "blended_cost_per_million_tokens": 0.30000000000000004,
+    "pricing_checked_at": "2026-08-13T08:18:02.791Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-5-6-sol-non-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 5,
+    "output_cost_per_million_tokens": 30,
+    "blended_cost_per_million_tokens": 11.25,
+    "pricing_checked_at": "2026-08-13T08:18:02.791Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "google:gemini-3-flash-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.5,
+    "output_cost_per_million_tokens": 3,
+    "blended_cost_per_million_tokens": 1.125,
+    "pricing_checked_at": "2026-08-13T08:18:02.791Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "inclusionai:ling-3-0-tiny",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0,
+    "output_cost_per_million_tokens": 0,
+    "blended_cost_per_million_tokens": 0,
+    "pricing_checked_at": "2026-08-13T08:18:02.791Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "alibaba:qwen3-30b-a3b-2507",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.2,
+    "output_cost_per_million_tokens": 0.8,
+    "blended_cost_per_million_tokens": 0.35000000000000003,
+    "pricing_checked_at": "2026-08-13T08:18:02.791Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-5-low",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 1.25,
+    "output_cost_per_million_tokens": 10,
+    "blended_cost_per_million_tokens": 3.4375,
+    "pricing_checked_at": "2026-08-13T08:18:02.791Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "celeris:celeris-1",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.2,
+    "output_cost_per_million_tokens": 0.7,
+    "blended_cost_per_million_tokens": 0.325,
+    "pricing_checked_at": "2026-08-13T08:18:02.791Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "cohere:tiny-aya-global",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0,
+    "output_cost_per_million_tokens": 0,
+    "blended_cost_per_million_tokens": 0,
+    "pricing_checked_at": "2026-08-13T08:18:02.791Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-5-6-terra-high",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 2,
+    "output_cost_per_million_tokens": 12,
+    "blended_cost_per_million_tokens": 4.5,
+    "pricing_checked_at": "2026-08-13T08:18:02.791Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "z-ai:glm-4-7-non-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.6,
+    "output_cost_per_million_tokens": 2.2,
+    "blended_cost_per_million_tokens": 1,
+    "pricing_checked_at": "2026-08-13T08:18:02.791Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "meta:llama-3-instruct-8b",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.04,
+    "output_cost_per_million_tokens": 0.14,
+    "blended_cost_per_million_tokens": 0.065,
+    "pricing_checked_at": "2026-08-13T08:18:02.791Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "nous-research:hermes-4-llama-3-1-405b-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 1,
+    "output_cost_per_million_tokens": 3,
+    "blended_cost_per_million_tokens": 1.5,
+    "pricing_checked_at": "2026-08-13T08:18:02.791Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "ibm:granite-4-1-8b",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.05,
+    "output_cost_per_million_tokens": 0.1,
+    "blended_cost_per_million_tokens": 0.0625,
+    "pricing_checked_at": "2026-08-13T08:18:02.791Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "anthropic:claude-fable-5-opus-5-fallback",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 10,
+    "output_cost_per_million_tokens": 50,
+    "blended_cost_per_million_tokens": 20,
+    "pricing_checked_at": "2026-08-13T08:18:02.791Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "deepseek:deepseek-v4-pro",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.43,
+    "output_cost_per_million_tokens": 0.87,
+    "blended_cost_per_million_tokens": 0.54,
+    "pricing_checked_at": "2026-08-13T08:18:02.791Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "google:gemini-2-5-flash-lite-preview-09-2025-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.1,
+    "output_cost_per_million_tokens": 0.4,
+    "blended_cost_per_million_tokens": 0.17500000000000002,
+    "pricing_checked_at": "2026-08-13T08:18:02.791Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:o4-mini",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 1.1,
+    "output_cost_per_million_tokens": 4.4,
+    "blended_cost_per_million_tokens": 1.9250000000000003,
+    "pricing_checked_at": "2026-08-13T08:18:02.791Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-5-2-medium",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 1.75,
+    "output_cost_per_million_tokens": 14,
+    "blended_cost_per_million_tokens": 4.8125,
+    "pricing_checked_at": "2026-08-13T08:18:02.791Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "mistral:magistral-medium-2509",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 2,
+    "output_cost_per_million_tokens": 5,
+    "blended_cost_per_million_tokens": 2.75,
+    "pricing_checked_at": "2026-08-13T08:18:02.791Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "alibaba:qwen3-6-35b-a3b",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.38,
+    "output_cost_per_million_tokens": 2.25,
+    "blended_cost_per_million_tokens": 0.8475,
+    "pricing_checked_at": "2026-08-13T08:18:02.791Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-5-6-luna-xhigh",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.2,
+    "output_cost_per_million_tokens": 1.2,
+    "blended_cost_per_million_tokens": 0.45,
+    "pricing_checked_at": "2026-08-13T08:18:02.791Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "inclusionai:ling-flash-2-0",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.14,
+    "output_cost_per_million_tokens": 0.57,
+    "blended_cost_per_million_tokens": 0.2475,
+    "pricing_checked_at": "2026-08-13T08:18:02.791Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-5-4-nano-medium",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.2,
+    "output_cost_per_million_tokens": 1.25,
+    "blended_cost_per_million_tokens": 0.4625,
+    "pricing_checked_at": "2026-08-13T08:18:02.791Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "swiss-ai-initiative:apertus-8b-instruct",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.1,
+    "output_cost_per_million_tokens": 0.2,
+    "blended_cost_per_million_tokens": 0.125,
+    "pricing_checked_at": "2026-08-13T08:18:02.791Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "deepseek:deepseek-v4-flash-0420-high",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.14,
+    "output_cost_per_million_tokens": 0.28,
+    "blended_cost_per_million_tokens": 0.17500000000000002,
+    "pricing_checked_at": "2026-08-13T08:18:02.791Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "anthropic:claude-4-opus-thinking",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 15,
+    "output_cost_per_million_tokens": 75,
+    "blended_cost_per_million_tokens": 30,
+    "pricing_checked_at": "2026-08-13T08:18:02.792Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-5-6-sol-high",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 5,
+    "output_cost_per_million_tokens": 30,
+    "blended_cost_per_million_tokens": 11.25,
+    "pricing_checked_at": "2026-08-13T08:18:02.792Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-4o-2024-08-06",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 2.5,
+    "output_cost_per_million_tokens": 10,
+    "blended_cost_per_million_tokens": 4.375,
+    "pricing_checked_at": "2026-08-13T08:18:02.792Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "alibaba:qwen3-6-27b",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.6,
+    "output_cost_per_million_tokens": 3.6,
+    "blended_cost_per_million_tokens": 1.35,
+    "pricing_checked_at": "2026-08-13T08:18:02.792Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "nvidia:nemotron-3-nano-omni-30b-a3b",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.07,
+    "output_cost_per_million_tokens": 0.3,
+    "blended_cost_per_million_tokens": 0.1275,
+    "pricing_checked_at": "2026-08-13T08:18:02.792Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "tencent:hy3-preview",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.06,
+    "output_cost_per_million_tokens": 0.21,
+    "blended_cost_per_million_tokens": 0.0975,
+    "pricing_checked_at": "2026-08-13T08:18:02.792Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "kimi:kimi-k2-7-code",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.95,
+    "output_cost_per_million_tokens": 4,
+    "blended_cost_per_million_tokens": 1.7125,
+    "pricing_checked_at": "2026-08-13T08:18:02.792Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "sapiens-ai:agnes-2-5-pro-alpha",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.45,
+    "output_cost_per_million_tokens": 0.9,
+    "blended_cost_per_million_tokens": 0.5625,
+    "pricing_checked_at": "2026-08-13T08:18:02.792Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-5-nano-medium",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.05,
+    "output_cost_per_million_tokens": 0.4,
+    "blended_cost_per_million_tokens": 0.1375,
+    "pricing_checked_at": "2026-08-13T08:18:02.792Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "allen-institute-for-ai:olmo-3-7b-instruct",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.1,
+    "output_cost_per_million_tokens": 0.2,
+    "blended_cost_per_million_tokens": 0.125,
+    "pricing_checked_at": "2026-08-13T08:18:02.792Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "spacexai:grok-4-3-non-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 1.25,
+    "output_cost_per_million_tokens": 2.5,
+    "blended_cost_per_million_tokens": 1.5625,
+    "pricing_checked_at": "2026-08-13T08:18:02.792Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "anthropic:claude-4-5-sonnet-thinking",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 3,
+    "output_cost_per_million_tokens": 15,
+    "blended_cost_per_million_tokens": 6,
+    "pricing_checked_at": "2026-08-13T08:18:02.792Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "anthropic:claude-4-5-sonnet",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 3,
+    "output_cost_per_million_tokens": 15,
+    "blended_cost_per_million_tokens": 6,
+    "pricing_checked_at": "2026-08-13T08:18:02.792Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "inclusionai:ling-2-6-flash",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.1,
+    "output_cost_per_million_tokens": 0.3,
+    "blended_cost_per_million_tokens": 0.15000000000000002,
+    "pricing_checked_at": "2026-08-13T08:18:02.792Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "meta:llama-4-maverick",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.27,
+    "output_cost_per_million_tokens": 0.85,
+    "blended_cost_per_million_tokens": 0.41500000000000004,
+    "pricing_checked_at": "2026-08-13T08:18:02.792Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "z-ai:glm-5-1-non-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 1.38,
+    "output_cost_per_million_tokens": 4.4,
+    "blended_cost_per_million_tokens": 2.135,
+    "pricing_checked_at": "2026-08-13T08:18:02.792Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "z-ai:glm-4-6",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.57,
+    "output_cost_per_million_tokens": 2.2,
+    "blended_cost_per_million_tokens": 0.9775,
+    "pricing_checked_at": "2026-08-13T08:18:02.792Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "spacexai:grok-4-3",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 1.25,
+    "output_cost_per_million_tokens": 2.5,
+    "blended_cost_per_million_tokens": 1.5625,
+    "pricing_checked_at": "2026-08-13T08:18:02.792Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "mistral:ministral-3-8b",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.15,
+    "output_cost_per_million_tokens": 0.15,
+    "blended_cost_per_million_tokens": 0.15,
+    "pricing_checked_at": "2026-08-13T08:18:02.792Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "meta:llama-3-3-instruct-70b",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.66,
+    "output_cost_per_million_tokens": 0.72,
+    "blended_cost_per_million_tokens": 0.675,
+    "pricing_checked_at": "2026-08-13T08:18:02.792Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "anthropic:claude-opus-4-8",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 5,
+    "output_cost_per_million_tokens": 25,
+    "blended_cost_per_million_tokens": 10,
+    "pricing_checked_at": "2026-08-13T08:18:02.792Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "anthropic:claude-sonnet-5-xhigh",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 2,
+    "output_cost_per_million_tokens": 10,
+    "blended_cost_per_million_tokens": 4,
+    "pricing_checked_at": "2026-08-13T08:18:02.792Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-5-6-terra-non-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 2,
+    "output_cost_per_million_tokens": 12,
+    "blended_cost_per_million_tokens": 4.5,
+    "pricing_checked_at": "2026-08-13T08:18:02.792Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "minimax:minimax-m1-80k",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.55,
+    "output_cost_per_million_tokens": 2.2,
+    "blended_cost_per_million_tokens": 0.9625000000000001,
+    "pricing_checked_at": "2026-08-13T08:18:02.792Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "alibaba:qwen3-8b-instruct-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.18,
+    "output_cost_per_million_tokens": 2.1,
+    "blended_cost_per_million_tokens": 0.66,
+    "pricing_checked_at": "2026-08-13T08:18:02.792Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-5-6-terra-xhigh",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 2,
+    "output_cost_per_million_tokens": 12,
+    "blended_cost_per_million_tokens": 4.5,
+    "pricing_checked_at": "2026-08-13T08:18:02.792Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-4-1-mini",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.4,
+    "output_cost_per_million_tokens": 1.6,
+    "blended_cost_per_million_tokens": 0.7000000000000001,
+    "pricing_checked_at": "2026-08-13T08:18:02.792Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "microsoft:phi-4-mini",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0,
+    "output_cost_per_million_tokens": 0,
+    "blended_cost_per_million_tokens": 0,
+    "pricing_checked_at": "2026-08-13T08:18:02.792Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "amazon:nova-2-0-pro",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 1.25,
+    "output_cost_per_million_tokens": 10,
+    "blended_cost_per_million_tokens": 3.4375,
+    "pricing_checked_at": "2026-08-13T08:18:02.792Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "moonshot:kimi-k2.5",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.6,
+    "output_cost_per_million_tokens": 3,
+    "blended_cost_per_million_tokens": 1.2,
+    "pricing_checked_at": "2026-08-13T08:18:02.792Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "anthropic:claude-4-5-haiku-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 1,
+    "output_cost_per_million_tokens": 5,
+    "blended_cost_per_million_tokens": 2,
+    "pricing_checked_at": "2026-08-13T08:18:02.792Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "servicenow:apriel-v1-6-15b-thinker",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0,
+    "output_cost_per_million_tokens": 0,
+    "blended_cost_per_million_tokens": 0,
+    "pricing_checked_at": "2026-08-13T08:18:02.792Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "anthropic:claude-4-sonnet-thinking",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 3,
+    "output_cost_per_million_tokens": 15,
+    "blended_cost_per_million_tokens": 6,
+    "pricing_checked_at": "2026-08-13T08:18:02.792Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "google:gemma-3n-e4b",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.06,
+    "output_cost_per_million_tokens": 0.12,
+    "blended_cost_per_million_tokens": 0.075,
+    "pricing_checked_at": "2026-08-13T08:18:02.792Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "alibaba:qwen3-vl-235b-a22b-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.7,
+    "output_cost_per_million_tokens": 8.4,
+    "blended_cost_per_million_tokens": 2.625,
+    "pricing_checked_at": "2026-08-13T08:18:02.792Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "deepseek:deepseek-r1",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 1.35,
+    "output_cost_per_million_tokens": 4.2,
+    "blended_cost_per_million_tokens": 2.0625,
+    "pricing_checked_at": "2026-08-13T08:18:02.792Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "alibaba:qwen3-7-plus",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.4,
+    "output_cost_per_million_tokens": 1.6,
+    "blended_cost_per_million_tokens": 0.7000000000000001,
+    "pricing_checked_at": "2026-08-13T08:18:02.792Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-5-4",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 2.5,
+    "output_cost_per_million_tokens": 15,
+    "blended_cost_per_million_tokens": 5.625,
+    "pricing_checked_at": "2026-08-13T08:18:02.792Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "google:gemma-3n-e2b",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0,
+    "output_cost_per_million_tokens": 0,
+    "blended_cost_per_million_tokens": 0,
+    "pricing_checked_at": "2026-08-13T08:18:02.792Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "reka-ai:reka-flash",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.2,
+    "output_cost_per_million_tokens": 0.8,
+    "blended_cost_per_million_tokens": 0.35000000000000003,
+    "pricing_checked_at": "2026-08-13T08:18:02.792Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-5-6-luna-high",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.2,
+    "output_cost_per_million_tokens": 1.2,
+    "blended_cost_per_million_tokens": 0.45,
+    "pricing_checked_at": "2026-08-13T08:18:02.792Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "meta:llama-3-instruct-70b",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.65,
+    "output_cost_per_million_tokens": 2.75,
+    "blended_cost_per_million_tokens": 1.175,
+    "pricing_checked_at": "2026-08-13T08:18:02.792Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "nvidia:nvidia-nemotron-nano-12b-v2-vl",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.2,
+    "output_cost_per_million_tokens": 0.6,
+    "blended_cost_per_million_tokens": 0.30000000000000004,
+    "pricing_checked_at": "2026-08-13T08:18:02.792Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "cohere:command-r-03-2024",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.5,
+    "output_cost_per_million_tokens": 1.5,
+    "blended_cost_per_million_tokens": 0.75,
+    "pricing_checked_at": "2026-08-13T08:18:02.792Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "servicenow:apriel-v1-5-15b-thinker",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0,
+    "output_cost_per_million_tokens": 0,
+    "blended_cost_per_million_tokens": 0,
+    "pricing_checked_at": "2026-08-13T08:18:02.792Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "anthropic:claude-35-sonnet-june-24",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 3,
+    "output_cost_per_million_tokens": 15,
+    "blended_cost_per_million_tokens": 6,
+    "pricing_checked_at": "2026-08-13T08:18:02.792Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "deepseek:deepseek-v4-flash-non-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.14,
+    "output_cost_per_million_tokens": 0.28,
+    "blended_cost_per_million_tokens": 0.17500000000000002,
+    "pricing_checked_at": "2026-08-13T08:18:02.792Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "meta:llama-4-scout",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.18,
+    "output_cost_per_million_tokens": 0.66,
+    "blended_cost_per_million_tokens": 0.30000000000000004,
+    "pricing_checked_at": "2026-08-13T08:18:02.792Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-5-4-mini-non-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.75,
+    "output_cost_per_million_tokens": 4.5,
+    "blended_cost_per_million_tokens": 1.6875,
+    "pricing_checked_at": "2026-08-13T08:18:02.792Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "baidu:ernie-4-5-300b-a47b",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.28,
+    "output_cost_per_million_tokens": 1.1,
+    "blended_cost_per_million_tokens": 0.48500000000000004,
+    "pricing_checked_at": "2026-08-13T08:18:02.792Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "deepseek:deepseek-v3-2-reasoning-0925",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.28,
+    "output_cost_per_million_tokens": 0.42,
+    "blended_cost_per_million_tokens": 0.315,
+    "pricing_checked_at": "2026-08-13T08:18:02.792Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "alibaba:qwen3-32b-instruct-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.7,
+    "output_cost_per_million_tokens": 8.4,
+    "blended_cost_per_million_tokens": 2.625,
+    "pricing_checked_at": "2026-08-13T08:18:02.792Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-5-5-high",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 5,
+    "output_cost_per_million_tokens": 30,
+    "blended_cost_per_million_tokens": 11.25,
+    "pricing_checked_at": "2026-08-13T08:18:02.792Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "tencent:hy3",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.14,
+    "output_cost_per_million_tokens": 0.56,
+    "blended_cost_per_million_tokens": 0.24500000000000002,
+    "pricing_checked_at": "2026-08-13T08:18:02.792Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "alibaba:qwen3-8b-instruct",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.18,
+    "output_cost_per_million_tokens": 0.7,
+    "blended_cost_per_million_tokens": 0.31,
+    "pricing_checked_at": "2026-08-13T08:18:02.792Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "google:gemini-3-pro-low",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 2,
+    "output_cost_per_million_tokens": 12,
+    "blended_cost_per_million_tokens": 4.5,
+    "pricing_checked_at": "2026-08-13T08:18:02.792Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "amazon:nova-2-0-omni-reasoning-low",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.3,
+    "output_cost_per_million_tokens": 2.5,
+    "blended_cost_per_million_tokens": 0.85,
+    "pricing_checked_at": "2026-08-13T08:18:02.792Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "ai21-labs:jamba-1-5-large",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 2,
+    "output_cost_per_million_tokens": 8,
+    "blended_cost_per_million_tokens": 3.5,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "alibaba:qwen2-5-72b-instruct",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.47,
+    "output_cost_per_million_tokens": 0.49,
+    "blended_cost_per_million_tokens": 0.475,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "tencent:hy3-non-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.06,
+    "output_cost_per_million_tokens": 0.21,
+    "blended_cost_per_million_tokens": 0.0975,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-4o-mini",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.15,
+    "output_cost_per_million_tokens": 0.6,
+    "blended_cost_per_million_tokens": 0.26249999999999996,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "arcee-ai:trinity-large-thinking",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.23,
+    "output_cost_per_million_tokens": 0.88,
+    "blended_cost_per_million_tokens": 0.3925,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "upstage:solar-pro-3",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.15,
+    "output_cost_per_million_tokens": 0.6,
+    "blended_cost_per_million_tokens": 0.26249999999999996,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "anthropic:claude-opus-5",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 5,
+    "output_cost_per_million_tokens": 25,
+    "blended_cost_per_million_tokens": 10,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "alibaba:qwen3-omni-30b-a3b-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.25,
+    "output_cost_per_million_tokens": 0.97,
+    "blended_cost_per_million_tokens": 0.43,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "anthropic:claude-sonnet-5-high",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 2,
+    "output_cost_per_million_tokens": 10,
+    "blended_cost_per_million_tokens": 4,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "kimi:kimi-k2-5-non-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.6,
+    "output_cost_per_million_tokens": 3,
+    "blended_cost_per_million_tokens": 1.2,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-5-4-mini",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.75,
+    "output_cost_per_million_tokens": 4.5,
+    "blended_cost_per_million_tokens": 1.6875,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "google:gemini-3-1-pro-preview",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 2,
+    "output_cost_per_million_tokens": 12,
+    "blended_cost_per_million_tokens": 4.5,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "alibaba:qwen3-235b-a22b-instruct-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.7,
+    "output_cost_per_million_tokens": 8.4,
+    "blended_cost_per_million_tokens": 2.625,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-5-mini-minimal",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.25,
+    "output_cost_per_million_tokens": 2,
+    "blended_cost_per_million_tokens": 0.6875,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-5-6-terra",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 2,
+    "output_cost_per_million_tokens": 12,
+    "blended_cost_per_million_tokens": 4.5,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "kimi:kimi-k2-thinking",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.6,
+    "output_cost_per_million_tokens": 2.5,
+    "blended_cost_per_million_tokens": 1.075,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "xiaomi:mimo-v2-flash-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.1,
+    "output_cost_per_million_tokens": 0.3,
+    "blended_cost_per_million_tokens": 0.15000000000000002,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "deepseek:deepseek-v4-pro-0424",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.43,
+    "output_cost_per_million_tokens": 0.87,
+    "blended_cost_per_million_tokens": 0.54,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "alibaba:qwen3-32b-instruct",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.7,
+    "output_cost_per_million_tokens": 2.8,
+    "blended_cost_per_million_tokens": 1.2249999999999999,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-4o",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 2.5,
+    "output_cost_per_million_tokens": 10,
+    "blended_cost_per_million_tokens": 4.375,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-5-4-nano-non-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.2,
+    "output_cost_per_million_tokens": 1.25,
+    "blended_cost_per_million_tokens": 0.4625,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "anthropic:claude-4-5-haiku",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 1,
+    "output_cost_per_million_tokens": 5,
+    "blended_cost_per_million_tokens": 2,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-5-mini-medium",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.25,
+    "output_cost_per_million_tokens": 2,
+    "blended_cost_per_million_tokens": 0.6875,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-5-minimal",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 1.25,
+    "output_cost_per_million_tokens": 10,
+    "blended_cost_per_million_tokens": 3.4375,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-5-5-instant-06-26",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 5,
+    "output_cost_per_million_tokens": 30,
+    "blended_cost_per_million_tokens": 11.25,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "ai9stars:g9v3-39a5b",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0,
+    "output_cost_per_million_tokens": 0,
+    "blended_cost_per_million_tokens": 0,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "spacexai:grok-4-20",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 1.25,
+    "output_cost_per_million_tokens": 2.5,
+    "blended_cost_per_million_tokens": 1.5625,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-5-5-low",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 5,
+    "output_cost_per_million_tokens": 30,
+    "blended_cost_per_million_tokens": 11.25,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "z-ai:glm-4-7-flash-non-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.07,
+    "output_cost_per_million_tokens": 0.4,
+    "blended_cost_per_million_tokens": 0.15250000000000002,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "alibaba:qwen3-next-80b-a3b-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.5,
+    "output_cost_per_million_tokens": 6,
+    "blended_cost_per_million_tokens": 1.875,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "spacexai:grok-4-6",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 2,
+    "output_cost_per_million_tokens": 6,
+    "blended_cost_per_million_tokens": 3,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-oss-120b-low",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.15,
+    "output_cost_per_million_tokens": 0.59,
+    "blended_cost_per_million_tokens": 0.26,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:o3-pro",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 20,
+    "output_cost_per_million_tokens": 80,
+    "blended_cost_per_million_tokens": 35,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "alibaba:qwen3-max-thinking-preview",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 1.2,
+    "output_cost_per_million_tokens": 6,
+    "blended_cost_per_million_tokens": 2.4,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-5-6-terra-low",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 2,
+    "output_cost_per_million_tokens": 12,
+    "blended_cost_per_million_tokens": 4.5,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "anthropic:claude-4-1-opus-thinking",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 15,
+    "output_cost_per_million_tokens": 75,
+    "blended_cost_per_million_tokens": 30,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "google:gemma-4-31b",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0,
+    "output_cost_per_million_tokens": 0,
+    "blended_cost_per_million_tokens": 0,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "anthropic:claude-fable-5",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 10,
+    "output_cost_per_million_tokens": 50,
+    "blended_cost_per_million_tokens": 20,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "alibaba:qwen3-vl-30b-a3b-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.2,
+    "output_cost_per_million_tokens": 2.4,
+    "blended_cost_per_million_tokens": 0.75,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "mistral:devstral-small-2",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0,
+    "output_cost_per_million_tokens": 0,
+    "blended_cost_per_million_tokens": 0,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "alibaba:qwq-32b",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.66,
+    "output_cost_per_million_tokens": 1,
+    "blended_cost_per_million_tokens": 0.745,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "nvidia:llama-3-1-nemotron-ultra-253b-v1-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.6,
+    "output_cost_per_million_tokens": 1.8,
+    "blended_cost_per_million_tokens": 0.8999999999999999,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "anthropic:claude-4-sonnet",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 3,
+    "output_cost_per_million_tokens": 15,
+    "blended_cost_per_million_tokens": 6,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "google:gemma-4-31b-non-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.15,
+    "output_cost_per_million_tokens": 0.4,
+    "blended_cost_per_million_tokens": 0.2125,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-5-1-non-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 1.25,
+    "output_cost_per_million_tokens": 10,
+    "blended_cost_per_million_tokens": 3.4375,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "google:gemini-3-pro",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 2,
+    "output_cost_per_million_tokens": 12,
+    "blended_cost_per_million_tokens": 4.5,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "google:gemma-3-1b",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0,
+    "output_cost_per_million_tokens": 0,
+    "blended_cost_per_million_tokens": 0,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "z-ai:glm-4-6v-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.3,
+    "output_cost_per_million_tokens": 0.9,
+    "blended_cost_per_million_tokens": 0.44999999999999996,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "alibaba:qwen3-vl-32b-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.7,
+    "output_cost_per_million_tokens": 8.4,
+    "blended_cost_per_million_tokens": 2.625,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "nous-research:hermes-4-llama-3-1-405b",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 1,
+    "output_cost_per_million_tokens": 3,
+    "blended_cost_per_million_tokens": 1.5,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-5-4-nano",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.2,
+    "output_cost_per_million_tokens": 1.25,
+    "blended_cost_per_million_tokens": 0.4625,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "anthropic:claude-sonnet-5-non-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 2,
+    "output_cost_per_million_tokens": 10,
+    "blended_cost_per_million_tokens": 4,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "alibaba:qwen3-vl-235b-a22b-instruct",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.7,
+    "output_cost_per_million_tokens": 2.8,
+    "blended_cost_per_million_tokens": 1.2249999999999999,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "meta:muse-spark-1-1",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 1.25,
+    "output_cost_per_million_tokens": 4.25,
+    "blended_cost_per_million_tokens": 2,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "deepseek:deepseek-v3-2-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.28,
+    "output_cost_per_million_tokens": 0.42,
+    "blended_cost_per_million_tokens": 0.315,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "google:gemma-4-e4b",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.02,
+    "output_cost_per_million_tokens": 0.1,
+    "blended_cost_per_million_tokens": 0.04,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "deepseek:deepseek-v4-flash-0420",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.13,
+    "output_cost_per_million_tokens": 0.28,
+    "blended_cost_per_million_tokens": 0.1675,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "anthropic:claude-3-7-sonnet",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 3,
+    "output_cost_per_million_tokens": 15,
+    "blended_cost_per_million_tokens": 6,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-5-6-sol",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 5,
+    "output_cost_per_million_tokens": 30,
+    "blended_cost_per_million_tokens": 11.25,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "upstage:solar-mini",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.15,
+    "output_cost_per_million_tokens": 0.15,
+    "blended_cost_per_million_tokens": 0.15,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-5-6-sol-xhigh",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 5,
+    "output_cost_per_million_tokens": 30,
+    "blended_cost_per_million_tokens": 11.25,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "alibaba:qwen3-coder-30b-a3b-instruct",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.45,
+    "output_cost_per_million_tokens": 2.25,
+    "blended_cost_per_million_tokens": 0.9,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "reka-ai:reka-flash-3",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.2,
+    "output_cost_per_million_tokens": 0.8,
+    "blended_cost_per_million_tokens": 0.35000000000000003,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-5-6-luna-non-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.2,
+    "output_cost_per_million_tokens": 1.2,
+    "blended_cost_per_million_tokens": 0.45,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "mistral:mistral-medium-3-5",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 1.5,
+    "output_cost_per_million_tokens": 7.5,
+    "blended_cost_per_million_tokens": 3,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "alibaba:qwen3-vl-8b-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.18,
+    "output_cost_per_million_tokens": 2.1,
+    "blended_cost_per_million_tokens": 0.66,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "anthropic:claude-sonnet-4-6-adaptive",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 3,
+    "output_cost_per_million_tokens": 15,
+    "blended_cost_per_million_tokens": 6,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "deepseek:deepseek-v3-1-terminus",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.27,
+    "output_cost_per_million_tokens": 1,
+    "blended_cost_per_million_tokens": 0.4525,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-5-nano",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.05,
+    "output_cost_per_million_tokens": 0.4,
+    "blended_cost_per_million_tokens": 0.1375,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "nvidia:llama-nemotron-super-49b-v1-5-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.4,
+    "output_cost_per_million_tokens": 0.4,
+    "blended_cost_per_million_tokens": 0.4,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "liquid-ai:lfm2-5-8b-a1b",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0,
+    "output_cost_per_million_tokens": 0,
+    "blended_cost_per_million_tokens": 0,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "inclusionai:ling-3-0-flash",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.07,
+    "output_cost_per_million_tokens": 0.22,
+    "blended_cost_per_million_tokens": 0.10750000000000001,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-5-5-instant-05-26",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 5,
+    "output_cost_per_million_tokens": 30,
+    "blended_cost_per_million_tokens": 11.25,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "amazon:nova-premier",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 2.5,
+    "output_cost_per_million_tokens": 12.5,
+    "blended_cost_per_million_tokens": 5,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "mistral:mistral-small-3",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.1,
+    "output_cost_per_million_tokens": 0.3,
+    "blended_cost_per_million_tokens": 0.15000000000000002,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "z-ai:glm-5-2-non-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 1.4,
+    "output_cost_per_million_tokens": 4.4,
+    "blended_cost_per_million_tokens": 2.15,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:o1-pro",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 150,
+    "output_cost_per_million_tokens": 600,
+    "blended_cost_per_million_tokens": 262.5,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-4o-2024-05-13",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 5,
+    "output_cost_per_million_tokens": 15,
+    "blended_cost_per_million_tokens": 7.5,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "anthropic:claude-opus-4.7",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 5,
+    "output_cost_per_million_tokens": 25,
+    "blended_cost_per_million_tokens": 10,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "deep-cogito:cogito-v2-1-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 1.25,
+    "output_cost_per_million_tokens": 1.25,
+    "blended_cost_per_million_tokens": 1.25,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "inclusionai:ring-2-6-1t",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.3,
+    "output_cost_per_million_tokens": 2.5,
+    "blended_cost_per_million_tokens": 0.85,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "alibaba:qwen3-14b-instruct",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.35,
+    "output_cost_per_million_tokens": 1.4,
+    "blended_cost_per_million_tokens": 0.6124999999999999,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "microsoft:phi-4",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.13,
+    "output_cost_per_million_tokens": 0.5,
+    "blended_cost_per_million_tokens": 0.2225,
+    "pricing_checked_at": "2026-08-13T08:18:02.793Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "alibaba:qwen3-5-35b-a3b-non-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.25,
+    "output_cost_per_million_tokens": 2,
+    "blended_cost_per_million_tokens": 0.6875,
+    "pricing_checked_at": "2026-08-13T08:18:02.794Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "anthropic:claude-sonnet-5-medium",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 2,
+    "output_cost_per_million_tokens": 10,
+    "blended_cost_per_million_tokens": 4,
+    "pricing_checked_at": "2026-08-13T08:18:02.794Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-oss-120b",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.15,
+    "output_cost_per_million_tokens": 0.6,
+    "blended_cost_per_million_tokens": 0.26249999999999996,
+    "pricing_checked_at": "2026-08-13T08:18:02.794Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "z-ai:glm-5-non-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 1,
+    "output_cost_per_million_tokens": 3.2,
+    "blended_cost_per_million_tokens": 1.55,
+    "pricing_checked_at": "2026-08-13T08:18:02.794Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "nvidia:nvidia-nemotron-nano-9b-v2-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.04,
+    "output_cost_per_million_tokens": 0.16,
+    "blended_cost_per_million_tokens": 0.07,
+    "pricing_checked_at": "2026-08-13T08:18:02.794Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "anthropic:claude-sonnet-4-6-non-reasoning-low-effort",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 3,
+    "output_cost_per_million_tokens": 15,
+    "blended_cost_per_million_tokens": 6,
+    "pricing_checked_at": "2026-08-13T08:18:02.794Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "anthropic:claude-4-1-opus",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 15,
+    "output_cost_per_million_tokens": 75,
+    "blended_cost_per_million_tokens": 30,
+    "pricing_checked_at": "2026-08-13T08:18:02.794Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "alibaba:qwen3-30b-a3b-instruct",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.2,
+    "output_cost_per_million_tokens": 0.8,
+    "blended_cost_per_million_tokens": 0.35000000000000003,
+    "pricing_checked_at": "2026-08-13T08:18:02.794Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "alibaba:qwen3-6-plus",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.5,
+    "output_cost_per_million_tokens": 3,
+    "blended_cost_per_million_tokens": 1.125,
+    "pricing_checked_at": "2026-08-13T08:18:02.794Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "amazon:nova-2-0-pro-reasoning-low",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 1.25,
+    "output_cost_per_million_tokens": 10,
+    "blended_cost_per_million_tokens": 3.4375,
+    "pricing_checked_at": "2026-08-13T08:18:02.794Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "google:gemini-2-5-flash-lite-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.1,
+    "output_cost_per_million_tokens": 0.4,
+    "blended_cost_per_million_tokens": 0.17500000000000002,
+    "pricing_checked_at": "2026-08-13T08:18:02.794Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "alibaba:qwen3-235b-a22b-instruct-2507-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.7,
+    "output_cost_per_million_tokens": 8.4,
+    "blended_cost_per_million_tokens": 2.625,
+    "pricing_checked_at": "2026-08-13T08:18:02.794Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "minimax:minimax-m2",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.3,
+    "output_cost_per_million_tokens": 1.2,
+    "blended_cost_per_million_tokens": 0.5249999999999999,
+    "pricing_checked_at": "2026-08-13T08:18:02.794Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "z-ai:glm-5-2",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 1.4,
+    "output_cost_per_million_tokens": 4.4,
+    "blended_cost_per_million_tokens": 2.15,
+    "pricing_checked_at": "2026-08-13T08:18:02.794Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "kimi:kimi-k3",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 3,
+    "output_cost_per_million_tokens": 15,
+    "blended_cost_per_million_tokens": 6,
+    "pricing_checked_at": "2026-08-13T08:18:02.794Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "deepseek:deepseek-v3-1",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.56,
+    "output_cost_per_million_tokens": 1.68,
+    "blended_cost_per_million_tokens": 0.8400000000000001,
+    "pricing_checked_at": "2026-08-13T08:18:02.794Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "amazon:nova-2-0-lite-reasoning-medium",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.3,
+    "output_cost_per_million_tokens": 2.5,
+    "blended_cost_per_million_tokens": 0.85,
+    "pricing_checked_at": "2026-08-13T08:18:02.794Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "kwaikat:kat-coder-pro-v2",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.3,
+    "output_cost_per_million_tokens": 1.2,
+    "blended_cost_per_million_tokens": 0.5249999999999999,
+    "pricing_checked_at": "2026-08-13T08:18:02.794Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "alibaba:qwen3-coder-next",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.35,
+    "output_cost_per_million_tokens": 1.2,
+    "blended_cost_per_million_tokens": 0.5625,
+    "pricing_checked_at": "2026-08-13T08:18:02.794Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "openai:gpt-5-1-codex-mini",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.25,
+    "output_cost_per_million_tokens": 2,
+    "blended_cost_per_million_tokens": 0.6875,
+    "pricing_checked_at": "2026-08-13T08:18:02.794Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "google:gemini-2-0-flash-experimental",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0,
+    "output_cost_per_million_tokens": 0,
+    "blended_cost_per_million_tokens": 0,
+    "pricing_checked_at": "2026-08-13T08:18:02.794Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "spacexai:grok-4-3-low",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 1.25,
+    "output_cost_per_million_tokens": 2.5,
+    "blended_cost_per_million_tokens": 1.5625,
+    "pricing_checked_at": "2026-08-13T08:18:02.794Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "deepseek:deepseek-v4-flash",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.14,
+    "output_cost_per_million_tokens": 0.28,
+    "blended_cost_per_million_tokens": 0.17500000000000002,
+    "pricing_checked_at": "2026-08-13T08:18:02.794Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "google:gemma-4-12b",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.1,
+    "output_cost_per_million_tokens": 0.3,
+    "blended_cost_per_million_tokens": 0.15000000000000002,
+    "pricing_checked_at": "2026-08-13T08:18:02.794Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "anthropic:claude-opus-5-medium",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 5,
+    "output_cost_per_million_tokens": 25,
+    "blended_cost_per_million_tokens": 10,
+    "pricing_checked_at": "2026-08-13T08:18:02.794Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "spacexai:grok-3-mini-reasoning",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.3,
+    "output_cost_per_million_tokens": 0.5,
+    "blended_cost_per_million_tokens": 0.35,
+    "pricing_checked_at": "2026-08-13T08:18:02.794Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  },
+  {
+    "model_id": "meta:llama-2-chat-7b",
+    "pricing_provider": "Artificial Analysis median provider pricing",
+    "input_cost_per_million_tokens": 0.05,
+    "output_cost_per_million_tokens": 0.25,
+    "blended_cost_per_million_tokens": 0.1,
+    "pricing_checked_at": "2026-08-13T08:18:02.794Z",
+    "source_url": "https://artificialanalysis.ai/data-api/docs",
+    "data_source": "live"
+  }
 ]

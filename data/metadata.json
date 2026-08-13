@@ -1,33 +1,31 @@
 {
-  "generated_at": "2026-08-13T07:52:56.839Z",
+  "generated_at": "2026-08-13T08:17:59.735Z",
   "sources": {
     "enterpriseops": {
-      "last_attempted_update": "2026-08-13T07:52:56.839Z",
+      "last_attempted_update": "2026-08-13T08:17:59.735Z",
       "last_successful_update": "2026-08-10T09:00:00.000Z",
       "status": "fallback",
-      "error": "Artificial Analysis API returned HTTP 401; EnterpriseOps requires a permitted machine-readable source because the API response has no EnterpriseOps-Gym-AA field",
+      "error": "EnterpriseOps-Gym-AA is not exposed as a distinct field; configure ENTERPRISEOPS_SOURCE_URL with a permitted JSON source",
       "record_count": 12
     },
     "coding-agent-index": {
-      "last_attempted_update": "2026-08-13T07:52:56.839Z",
-      "last_successful_update": "2026-08-10T09:00:00.000Z",
-      "status": "fallback",
-      "error": "Artificial Analysis API returned HTTP 401",
-      "record_count": 12
+      "last_attempted_update": "2026-08-13T08:17:59.735Z",
+      "last_successful_update": "2026-08-13T08:17:59.735Z",
+      "status": "success",
+      "record_count": 216
     },
     "gdpval": {
-      "last_attempted_update": "2026-08-13T07:52:56.839Z",
+      "last_attempted_update": "2026-08-13T08:17:59.735Z",
       "last_successful_update": "2026-08-10T09:00:00.000Z",
       "status": "fallback",
-      "error": "Artificial Analysis API returned HTTP 401",
+      "error": "gdpval returned 0 records; refusing to replace 12 existing records",
       "record_count": 12
     },
     "pricing": {
-      "last_attempted_update": "2026-08-13T07:52:56.839Z",
-      "last_successful_update": "2026-08-10T09:00:00.000Z",
-      "status": "fallback",
-      "error": "Artificial Analysis API returned HTTP 401",
-      "record_count": 11
+      "last_attempted_update": "2026-08-13T08:17:59.735Z",
+      "last_successful_update": "2026-08-13T08:17:59.735Z",
+      "status": "success",
+      "record_count": 404
     }
   }
 }
