@@ -5487,5 +5487,23 @@
     "upstream_id": "eb0d4272-7204-42b9-b875-8866fed58548",
     "upstream_slug": "gemini-3-7-flash-medium",
     "release_date": "2026-08-13"
+  },
+  {
+    "id": "alibaba:qwen3-8-27b",
+    "name": "Qwen3.8 27B",
+    "provider": "Alibaba",
+    "model_access": "unknown",
+    "upstream_id": "b01dee41-c62b-48ed-8d16-984adc405e5c",
+    "upstream_slug": "qwen3-8-27b",
+    "release_date": "2026-08-14"
+  },
+  {
+    "id": "z-ai:glm-5-3",
+    "name": "GLM-5.3 (max)",
+    "provider": "Z AI",
+    "model_access": "unknown",
+    "upstream_id": "cd684ea4-b475-4269-b001-d469d06d8a7a",
+    "upstream_slug": "glm-5-3",
+    "release_date": "2026-08-18"
   }
 ]
