@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-08-21T22:44:36.439Z",
+  "generated_at": "2026-08-22T22:41:25.172Z",
   "sources": {
     "enterpriseops": {
-      "last_attempted_update": "2026-08-21T22:44:36.439Z",
+      "last_attempted_update": "2026-08-22T22:41:25.172Z",
       "last_successful_update": "2026-08-10T09:00:00.000Z",
       "status": "fallback",
       "error": "EnterpriseOps-Gym-AA is not exposed as a distinct field; configure ENTERPRISEOPS_SOURCE_URL with a permitted JSON source",
       "record_count": 12
     },
     "coding-agent-index": {
-      "last_attempted_update": "2026-08-21T22:44:36.439Z",
-      "last_successful_update": "2026-08-21T22:44:36.439Z",
+      "last_attempted_update": "2026-08-22T22:41:25.172Z",
+      "last_successful_update": "2026-08-22T22:41:25.172Z",
       "status": "success",
       "record_count": 222
     },
     "gdpval": {
-      "last_attempted_update": "2026-08-21T22:44:36.439Z",
+      "last_attempted_update": "2026-08-22T22:41:25.172Z",
       "last_successful_update": "2026-08-10T09:00:00.000Z",
       "status": "fallback",
       "error": "gdpval returned 0 records; refusing to replace 12 existing records",
       "record_count": 12
     },
     "pricing": {
-      "last_attempted_update": "2026-08-21T22:44:36.439Z",
-      "last_successful_update": "2026-08-21T22:44:36.439Z",
+      "last_attempted_update": "2026-08-22T22:41:25.172Z",
+      "last_successful_update": "2026-08-22T22:41:25.172Z",
       "status": "success",
       "record_count": 409
     }
