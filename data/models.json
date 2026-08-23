@@ -5505,5 +5505,23 @@
     "upstream_id": "cd684ea4-b475-4269-b001-d469d06d8a7a",
     "upstream_slug": "glm-5-3",
     "release_date": "2026-08-18"
+  },
+  {
+    "id": "alibaba:qwen3-8-27b-medium",
+    "name": "Qwen3.8 27B (medium)",
+    "provider": "Alibaba",
+    "model_access": "unknown",
+    "upstream_id": "6657d7de-a2a9-40bc-a32f-86e80ad63698",
+    "upstream_slug": "qwen3-8-27b-medium",
+    "release_date": "2026-08-14"
+  },
+  {
+    "id": "alibaba:qwen3-8-27b-low",
+    "name": "Qwen3.8 27B (low)",
+    "provider": "Alibaba",
+    "model_access": "unknown",
+    "upstream_id": "7e30585f-fad7-40df-a8cb-03c1d96df38a",
+    "upstream_slug": "qwen3-8-27b-low",
+    "release_date": "2026-08-14"
   }
 ]
