@@ -4350,7 +4350,7 @@
     "name": "G9v3-39A5B",
     "provider": "AI9Stars",
     "model_access": "unknown",
-    "upstream_id": "c5ccda86-5e84-4b69-9247-6d4287fc3336",
+    "upstream_id": "c1c5db7c-968f-445a-a274-7b5689348bf8",
     "upstream_slug": "g9v3-39a5b",
     "release_date": "2026-08-03"
   },
@@ -5523,5 +5523,41 @@
     "upstream_id": "7e30585f-fad7-40df-a8cb-03c1d96df38a",
     "upstream_slug": "qwen3-8-27b-low",
     "release_date": "2026-08-14"
+  },
+  {
+    "id": "spacexai:grok-4-6-medium",
+    "name": "Grok 4.6 (medium)",
+    "provider": "SpaceXAI",
+    "model_access": "unknown",
+    "upstream_id": "26614164-6840-4e17-a65a-2deb2fe7e87b",
+    "upstream_slug": "grok-4-6-medium",
+    "release_date": "2026-08-12"
+  },
+  {
+    "id": "spacexai:grok-4-6-low",
+    "name": "Grok 4.6 (low)",
+    "provider": "SpaceXAI",
+    "model_access": "unknown",
+    "upstream_id": "c07e65e6-32fc-451e-938d-7477a1c3ffcc",
+    "upstream_slug": "grok-4-6-low",
+    "release_date": "2026-08-12"
+  },
+  {
+    "id": "spacexai:grok-4-6-xhigh",
+    "name": "Grok 4.6 (xhigh)",
+    "provider": "SpaceXAI",
+    "model_access": "unknown",
+    "upstream_id": "d6f43d0a-e8c4-447c-9ff7-5cf0a9d59aa3",
+    "upstream_slug": "grok-4-6-xhigh",
+    "release_date": "2026-08-12"
+  },
+  {
+    "id": "liquid-ai:lfm2-5-2-6b",
+    "name": "LFM2.5-2.6B",
+    "provider": "Liquid AI",
+    "model_access": "unknown",
+    "upstream_id": "e1bfc488-5f48-4d42-abf6-7f3c53d79f9c",
+    "upstream_slug": "lfm2-5-2-6b",
+    "release_date": "2026-08-04"
   }
 ]
