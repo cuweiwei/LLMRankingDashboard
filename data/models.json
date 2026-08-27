@@ -5559,5 +5559,50 @@
     "upstream_id": "e1bfc488-5f48-4d42-abf6-7f3c53d79f9c",
     "upstream_slug": "lfm2-5-2-6b",
     "release_date": "2026-08-04"
+  },
+  {
+    "id": "ibm:granite-4-2-3b",
+    "name": "Granite 4.2 3B",
+    "provider": "IBM",
+    "model_access": "unknown",
+    "upstream_id": "0c64b008-20c3-408d-bd68-15136df8cd2c",
+    "upstream_slug": "granite-4-2-3b",
+    "release_date": "2026-08-25"
+  },
+  {
+    "id": "z-ai:glm-5-3-flash",
+    "name": "GLM-5.3-Flash",
+    "provider": "Z AI",
+    "model_access": "unknown",
+    "upstream_id": "19496b81-9f41-4214-a77a-1df803b3c5ae",
+    "upstream_slug": "glm-5-3-flash",
+    "release_date": "2026-08-26"
+  },
+  {
+    "id": "alibaba:qwen3-8-27b-non-reasoning",
+    "name": "Qwen3.8 27B (Non-reasoning)",
+    "provider": "Alibaba",
+    "model_access": "unknown",
+    "upstream_id": "353c92f3-2148-4c2d-9231-aa7e1322a1fd",
+    "upstream_slug": "qwen3-8-27b-non-reasoning",
+    "release_date": "2026-08-14"
+  },
+  {
+    "id": "deepseek:deepseek-v4-flash-vision",
+    "name": "DeepSeek V4 Flash Vision (Reasoning, Max Effort)",
+    "provider": "DeepSeek",
+    "model_access": "unknown",
+    "upstream_id": "7707a46f-895f-4247-b7a8-ddab87c9a11d",
+    "upstream_slug": "deepseek-v4-flash-vision",
+    "release_date": "2026-08-21"
+  },
+  {
+    "id": "ibm:granite-4-2-8b",
+    "name": "Granite 4.2 8B",
+    "provider": "IBM",
+    "model_access": "unknown",
+    "upstream_id": "adfae555-f489-4f3e-9064-c6b7fcdd0783",
+    "upstream_slug": "granite-4-2-8b",
+    "release_date": "2026-08-25"
   }
 ]
