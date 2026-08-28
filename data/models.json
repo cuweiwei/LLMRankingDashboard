@@ -5604,5 +5604,32 @@
     "upstream_id": "adfae555-f489-4f3e-9064-c6b7fcdd0783",
     "upstream_slug": "granite-4-2-8b",
     "release_date": "2026-08-25"
+  },
+  {
+    "id": "ibm:granite-4-2-30b",
+    "name": "Granite 4.2 30B",
+    "provider": "IBM",
+    "model_access": "unknown",
+    "upstream_id": "1071dea1-43e7-4fe9-b936-3034bb622b2e",
+    "upstream_slug": "granite-4-2-30b",
+    "release_date": "2026-08-25"
+  },
+  {
+    "id": "alibaba:qwen3-8-flash-next",
+    "name": "Qwen3.8-Flash-Next",
+    "provider": "Alibaba",
+    "model_access": "unknown",
+    "upstream_id": "9ac3908c-9eb2-44db-8c01-3ec7da6fc2ae",
+    "upstream_slug": "qwen3-8-flash-next",
+    "release_date": "2026-08-26"
+  },
+  {
+    "id": "sapiens-ai:agnes-2-5-pro-beta",
+    "name": "Agnes 2.5 Pro Beta",
+    "provider": "Sapiens AI",
+    "model_access": "unknown",
+    "upstream_id": "f3a0e101-086f-44b3-a1b2-d23498f9716b",
+    "upstream_slug": "agnes-2-5-pro-beta",
+    "release_date": "2026-08-26"
   }
 ]
