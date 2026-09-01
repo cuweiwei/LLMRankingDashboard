@@ -5631,5 +5631,14 @@
     "upstream_id": "f3a0e101-086f-44b3-a1b2-d23498f9716b",
     "upstream_slug": "agnes-2-5-pro-beta",
     "release_date": "2026-08-26"
+  },
+  {
+    "id": "apodex:apodex-1-1",
+    "name": "Apodex 1.1",
+    "provider": "Apodex",
+    "model_access": "unknown",
+    "upstream_id": "08242385-ee91-4de6-be7f-271a6d9780ce",
+    "upstream_slug": "apodex-1-1",
+    "release_date": "2026-08-30"
   }
 ]
