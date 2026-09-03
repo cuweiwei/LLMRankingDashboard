@@ -5694,5 +5694,32 @@
     "upstream_id": "f9739750-6d42-450f-ba1e-2f76c869b4fe",
     "upstream_slug": "quasar-438b",
     "release_date": "2026-08-10"
+  },
+  {
+    "id": "google:gemini-3-8-flash-medium",
+    "name": "Gemini 3.8 Flash (medium)",
+    "provider": "Google",
+    "model_access": "unknown",
+    "upstream_id": "744fa3c1-42a7-4995-b138-fb6be11f463c",
+    "upstream_slug": "gemini-3-8-flash-medium",
+    "release_date": "2026-09-02"
+  },
+  {
+    "id": "google:gemini-3-8-flash",
+    "name": "Gemini 3.8 Flash (high)",
+    "provider": "Google",
+    "model_access": "unknown",
+    "upstream_id": "8a999846-4c1d-4ce7-a8b7-1310a7166fd7",
+    "upstream_slug": "gemini-3-8-flash",
+    "release_date": "2026-09-02"
+  },
+  {
+    "id": "google:gemini-3-8-flash-low",
+    "name": "Gemini 3.8 Flash (low)",
+    "provider": "Google",
+    "model_access": "unknown",
+    "upstream_id": "f6db039b-0f3b-485c-9d7f-982988e44f26",
+    "upstream_slug": "gemini-3-8-flash-low",
+    "release_date": "2026-09-02"
   }
 ]
