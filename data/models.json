@@ -5802,5 +5802,14 @@
     "upstream_id": "e97a4ef5-e817-480e-9595-12f81dc4974f",
     "upstream_slug": "gpt-6-astra-medium",
     "release_date": "2026-09-03"
+  },
+  {
+    "id": "openbmb:minicpm5-2b",
+    "name": "MiniCPM5-2B",
+    "provider": "OpenBMB",
+    "model_access": "unknown",
+    "upstream_id": "641a073a-41c9-4773-9b02-d965c16607c5",
+    "upstream_slug": "minicpm5-2b",
+    "release_date": "2026-09-07"
   }
 ]
