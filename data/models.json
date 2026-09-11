@@ -3865,7 +3865,7 @@
     "provider": "DeepSeek",
     "model_access": "unknown",
     "upstream_id": "ad173c8d-f14f-4230-90e9-60979b7720e7",
-    "upstream_slug": "deepseek-v4-flash-non-reasoning",
+    "upstream_slug": "deepseek-v4-flash-0420-non-reasoning",
     "release_date": "2026-04-24"
   },
   {
@@ -5811,5 +5811,23 @@
     "upstream_id": "641a073a-41c9-4773-9b02-d965c16607c5",
     "upstream_slug": "minicpm5-2b",
     "release_date": "2026-09-07"
+  },
+  {
+    "id": "inclusionai:ling-3-0-flash-vl",
+    "name": "Ling-3.0-flash-VL",
+    "provider": "InclusionAI",
+    "model_access": "unknown",
+    "upstream_id": "433d5c5d-3092-4026-9727-1587ca07915d",
+    "upstream_slug": "ling-3-0-flash-vl",
+    "release_date": "2026-09-10"
+  },
+  {
+    "id": "deepseek:deepseek-v4-1-flash",
+    "name": "DeepSeek V4.1 Flash (Reasoning, Max Effort)",
+    "provider": "DeepSeek",
+    "model_access": "unknown",
+    "upstream_id": "dbe7c625-3100-4463-b479-a228c41f75dd",
+    "upstream_slug": "deepseek-v4-1-flash",
+    "release_date": "2026-09-10"
   }
 ]
