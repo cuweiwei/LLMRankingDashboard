@@ -5829,5 +5829,14 @@
     "upstream_id": "dbe7c625-3100-4463-b479-a228c41f75dd",
     "upstream_slug": "deepseek-v4-1-flash",
     "release_date": "2026-09-10"
+  },
+  {
+    "id": "sapiens-ai:agnes-3-0-flash",
+    "name": "Agnes 3.0 Flash",
+    "provider": "Sapiens AI",
+    "model_access": "unknown",
+    "upstream_id": "6ace0ead-584f-4ce6-a9b7-6c3f9cc91c3c",
+    "upstream_slug": "agnes-3-0-flash",
+    "release_date": "2026-09-11"
   }
 ]
