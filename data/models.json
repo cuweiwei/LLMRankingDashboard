@@ -5838,5 +5838,41 @@
     "upstream_id": "6ace0ead-584f-4ce6-a9b7-6c3f9cc91c3c",
     "upstream_slug": "agnes-3-0-flash",
     "release_date": "2026-09-11"
+  },
+  {
+    "id": "mbzuai-institute-of-foundation-models:k2-7b-ph2",
+    "name": "K2 Horizon 7B",
+    "provider": "MBZUAI Institute of Foundation Models",
+    "model_access": "unknown",
+    "upstream_id": "122a1fa1-976a-4089-87a2-5a0a13e2a52c",
+    "upstream_slug": "k2-7b-ph2",
+    "release_date": "2026-09-03"
+  },
+  {
+    "id": "mbzuai-institute-of-foundation-models:k2-4b-ph1",
+    "name": "K2 Horizon 3.7B",
+    "provider": "MBZUAI Institute of Foundation Models",
+    "model_access": "unknown",
+    "upstream_id": "31da3a71-0773-47d9-8560-9f19f069926b",
+    "upstream_slug": "k2-4b-ph1",
+    "release_date": "2026-09-03"
+  },
+  {
+    "id": "mbzuai-institute-of-foundation-models:k2-mova-36b-mid5",
+    "name": "K2 Horizon MoVA 36B A4B",
+    "provider": "MBZUAI Institute of Foundation Models",
+    "model_access": "unknown",
+    "upstream_id": "53b9e276-e360-4a39-9076-1a19d72c25fe",
+    "upstream_slug": "k2-mova-36b-mid5",
+    "release_date": "2026-09-03"
+  },
+  {
+    "id": "mbzuai-institute-of-foundation-models:k2-1b-final",
+    "name": "K2 Horizon 0.9B",
+    "provider": "MBZUAI Institute of Foundation Models",
+    "model_access": "unknown",
+    "upstream_id": "9e9fb958-87f5-4835-a761-26102ef25898",
+    "upstream_slug": "k2-1b-final",
+    "release_date": "2026-09-03"
   }
 ]
