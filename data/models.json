@@ -2254,7 +2254,7 @@
     "name": "Qwen3.8 Max",
     "provider": "Alibaba",
     "model_access": "unknown",
-    "upstream_id": "5e5b4ce7-bc54-47b2-b911-21b9cad8394c",
+    "upstream_id": "b112af07-3bd5-4647-b09f-b23204361bb2",
     "upstream_slug": "qwen3-8-max",
     "release_date": "2026-08-03"
   },
