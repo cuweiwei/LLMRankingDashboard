@@ -5874,5 +5874,14 @@
     "upstream_id": "9e9fb958-87f5-4835-a761-26102ef25898",
     "upstream_slug": "k2-1b-final",
     "release_date": "2026-09-03"
+  },
+  {
+    "id": "inclusionai:ling-3-0-flash-fin",
+    "name": "Ling-3.0-flash-Fin",
+    "provider": "InclusionAI",
+    "model_access": "unknown",
+    "upstream_id": "6d6fa1c9-b833-40b2-8a58-fa810e24a84e",
+    "upstream_slug": "ling-3-0-flash-fin",
+    "release_date": "2026-09-11"
   }
 ]
