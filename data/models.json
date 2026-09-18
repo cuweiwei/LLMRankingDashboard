@@ -5845,7 +5845,7 @@
     "provider": "MBZUAI Institute of Foundation Models",
     "model_access": "unknown",
     "upstream_id": "122a1fa1-976a-4089-87a2-5a0a13e2a52c",
-    "upstream_slug": "k2-7b-ph2",
+    "upstream_slug": "k2-horizon-7b",
     "release_date": "2026-09-03"
   },
   {
@@ -5854,7 +5854,7 @@
     "provider": "MBZUAI Institute of Foundation Models",
     "model_access": "unknown",
     "upstream_id": "31da3a71-0773-47d9-8560-9f19f069926b",
-    "upstream_slug": "k2-4b-ph1",
+    "upstream_slug": "k2-horizon-3-7b",
     "release_date": "2026-09-03"
   },
   {
@@ -5863,7 +5863,7 @@
     "provider": "MBZUAI Institute of Foundation Models",
     "model_access": "unknown",
     "upstream_id": "53b9e276-e360-4a39-9076-1a19d72c25fe",
-    "upstream_slug": "k2-mova-36b-mid5",
+    "upstream_slug": "k2-horizon-mova-36b-a4b",
     "release_date": "2026-09-03"
   },
   {
@@ -5872,7 +5872,7 @@
     "provider": "MBZUAI Institute of Foundation Models",
     "model_access": "unknown",
     "upstream_id": "9e9fb958-87f5-4835-a761-26102ef25898",
-    "upstream_slug": "k2-1b-final",
+    "upstream_slug": "k2-horizon-0-9b",
     "release_date": "2026-09-03"
   },
   {
