@@ -5883,5 +5883,14 @@
     "upstream_id": "6d6fa1c9-b833-40b2-8a58-fa810e24a84e",
     "upstream_slug": "ling-3-0-flash-fin",
     "release_date": "2026-09-11"
+  },
+  {
+    "id": "stepfun:step-5",
+    "name": "Step 5 Preview",
+    "provider": "StepFun",
+    "model_access": "unknown",
+    "upstream_id": "094ea3e3-ce41-419e-8bd1-723389663158",
+    "upstream_slug": "step-5",
+    "release_date": "2026-09-18"
   }
 ]
