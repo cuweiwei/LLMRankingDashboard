@@ -5892,5 +5892,32 @@
     "upstream_id": "094ea3e3-ce41-419e-8bd1-723389663158",
     "upstream_slug": "step-5",
     "release_date": "2026-09-18"
+  },
+  {
+    "id": "xiaomi:mimo-v2-6-pro",
+    "name": "MiMo-V2.6-Pro",
+    "provider": "Xiaomi",
+    "model_access": "unknown",
+    "upstream_id": "24d8fdfe-6241-424e-b7b7-1b6efb06e4fb",
+    "upstream_slug": "mimo-v2-6-pro",
+    "release_date": "2026-09-21"
+  },
+  {
+    "id": "spacexai:grok-4-7-high",
+    "name": "Grok 4.7 (high)",
+    "provider": "SpaceXAI",
+    "model_access": "unknown",
+    "upstream_id": "272f5f03-aea9-4675-a244-2b753b618cdf",
+    "upstream_slug": "grok-4-7-high",
+    "release_date": "2026-09-21"
+  },
+  {
+    "id": "spacexai:grok-4-7",
+    "name": "Grok 4.7 (xhigh)",
+    "provider": "SpaceXAI",
+    "model_access": "unknown",
+    "upstream_id": "59627802-1546-422c-9a65-65b61c022d36",
+    "upstream_slug": "grok-4-7",
+    "release_date": "2026-09-21"
   }
 ]
