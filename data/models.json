@@ -6072,5 +6072,14 @@
     "upstream_id": "f314eade-2232-44bf-a3ab-9b326bc67de6",
     "upstream_slug": "claude-opus-5-5-high",
     "release_date": "2026-09-17"
+  },
+  {
+    "id": "inception:mercury-2-5",
+    "name": "Mercury 2.5",
+    "provider": "Inception",
+    "model_access": "unknown",
+    "upstream_id": "765c9f31-95ec-4f14-900a-80614c3b0777",
+    "upstream_slug": "mercury-2-5",
+    "release_date": "2026-09-08"
   }
 ]
