@@ -6081,5 +6081,23 @@
     "upstream_id": "765c9f31-95ec-4f14-900a-80614c3b0777",
     "upstream_slug": "mercury-2-5",
     "release_date": "2026-09-08"
+  },
+  {
+    "id": "deepseek:deepseek-v4-1-flash-non-reasoning",
+    "name": "DeepSeek V4.1 Flash (Non-Reasoning)",
+    "provider": "DeepSeek",
+    "model_access": "unknown",
+    "upstream_id": "73c96f99-0de3-4668-a4bd-b106a0fe18f2",
+    "upstream_slug": "deepseek-v4-1-flash-non-reasoning",
+    "release_date": "2026-09-10"
+  },
+  {
+    "id": "z-ai:glm-5-3-low",
+    "name": "GLM-5.3 (low)",
+    "provider": "Z AI",
+    "model_access": "unknown",
+    "upstream_id": "cc1e488b-8ba4-464d-875d-690166b15ad3",
+    "upstream_slug": "glm-5-3-low",
+    "release_date": "2026-08-18"
   }
 ]
