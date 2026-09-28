@@ -6099,5 +6099,14 @@
     "upstream_id": "cc1e488b-8ba4-464d-875d-690166b15ad3",
     "upstream_slug": "glm-5-3-low",
     "release_date": "2026-08-18"
+  },
+  {
+    "id": "xiaomi:mimo-v2-6-flash",
+    "name": "MiMo-V2.6-Flash",
+    "provider": "Xiaomi",
+    "model_access": "unknown",
+    "upstream_id": "127de816-57d3-4037-8484-480a613cd413",
+    "upstream_slug": "mimo-v2-6-flash",
+    "release_date": "2026-09-21"
   }
 ]
