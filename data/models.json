@@ -6108,5 +6108,50 @@
     "upstream_id": "127de816-57d3-4037-8484-480a613cd413",
     "upstream_slug": "mimo-v2-6-flash",
     "release_date": "2026-09-21"
+  },
+  {
+    "id": "anthropic:claude-sonnet-5-5-medium",
+    "name": "Claude Sonnet 5.5 (Adaptive Reasoning, Medium Effort, Default Fallback)",
+    "provider": "Anthropic",
+    "model_access": "unknown",
+    "upstream_id": "042e8a37-fcd0-40f4-8f41-99215fb68eda",
+    "upstream_slug": "claude-sonnet-5-5-medium",
+    "release_date": "2026-09-28"
+  },
+  {
+    "id": "anthropic:claude-sonnet-5-5-high",
+    "name": "Claude Sonnet 5.5 (Adaptive Reasoning, High Effort, Default Fallback)",
+    "provider": "Anthropic",
+    "model_access": "unknown",
+    "upstream_id": "268525e2-f873-4178-bc07-e6a0ee1f002d",
+    "upstream_slug": "claude-sonnet-5-5-high",
+    "release_date": "2026-09-28"
+  },
+  {
+    "id": "anthropic:claude-sonnet-5-5-xhigh",
+    "name": "Claude Sonnet 5.5 (Adaptive Reasoning, Xhigh Effort, Default Fallback)",
+    "provider": "Anthropic",
+    "model_access": "unknown",
+    "upstream_id": "975aeaef-50bd-4a65-9c73-f1015adcd4d4",
+    "upstream_slug": "claude-sonnet-5-5-xhigh",
+    "release_date": "2026-09-28"
+  },
+  {
+    "id": "anthropic:claude-sonnet-5-5",
+    "name": "Claude Sonnet 5.5 (Adaptive Reasoning, Max Effort, Default Fallback)",
+    "provider": "Anthropic",
+    "model_access": "unknown",
+    "upstream_id": "b171d979-5ec1-45de-b8b9-db1ee65e77ec",
+    "upstream_slug": "claude-sonnet-5-5",
+    "release_date": "2026-09-28"
+  },
+  {
+    "id": "anthropic:claude-sonnet-5-5-low",
+    "name": "Claude Sonnet 5.5 (Adaptive Reasoning, Low Effort, Default Fallback)",
+    "provider": "Anthropic",
+    "model_access": "unknown",
+    "upstream_id": "bbc2ffea-cf6b-43be-8c41-1769347e234d",
+    "upstream_slug": "claude-sonnet-5-5-low",
+    "release_date": "2026-09-28"
   }
 ]
