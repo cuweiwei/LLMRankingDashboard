@@ -6153,5 +6153,50 @@
     "upstream_id": "bbc2ffea-cf6b-43be-8c41-1769347e234d",
     "upstream_slug": "claude-sonnet-5-5-low",
     "release_date": "2026-09-28"
+  },
+  {
+    "id": "openai:gpt-6-1-sol-xhigh",
+    "name": "GPT-6.1 Sol (xhigh)",
+    "provider": "OpenAI",
+    "model_access": "unknown",
+    "upstream_id": "092a3b0e-c5c8-45dc-bf1b-53673c8ff352",
+    "upstream_slug": "gpt-6-1-sol-xhigh",
+    "release_date": "2026-09-29"
+  },
+  {
+    "id": "openai:gpt-6-1-sol-high",
+    "name": "GPT-6.1 Sol (high)",
+    "provider": "OpenAI",
+    "model_access": "unknown",
+    "upstream_id": "3b84fee3-b70a-41bc-819e-5fbdef9a0042",
+    "upstream_slug": "gpt-6-1-sol-high",
+    "release_date": "2026-09-29"
+  },
+  {
+    "id": "openai:gpt-6-1-sol-medium",
+    "name": "GPT-6.1 Sol (medium)",
+    "provider": "OpenAI",
+    "model_access": "unknown",
+    "upstream_id": "a2e51d62-ea4e-4f15-8be0-be9dc1fb489d",
+    "upstream_slug": "gpt-6-1-sol-medium",
+    "release_date": "2026-09-29"
+  },
+  {
+    "id": "openai:gpt-6-1-sol",
+    "name": "GPT-6.1 Sol (max)",
+    "provider": "OpenAI",
+    "model_access": "unknown",
+    "upstream_id": "b25ac058-1e33-4c31-bbc9-a20c3ad0717a",
+    "upstream_slug": "gpt-6-1-sol",
+    "release_date": "2026-09-29"
+  },
+  {
+    "id": "openai:gpt-6-1-sol-low",
+    "name": "GPT-6.1 Sol (low)",
+    "provider": "OpenAI",
+    "model_access": "unknown",
+    "upstream_id": "e76e0fe5-93ca-4272-9359-2eb1740467d1",
+    "upstream_slug": "gpt-6-1-sol-low",
+    "release_date": "2026-09-29"
   }
 ]
