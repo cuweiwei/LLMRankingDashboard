@@ -6216,5 +6216,23 @@
     "upstream_id": "d366dfa1-d940-4788-aa73-d298c45699b3",
     "upstream_slug": "gemini-4-argon",
     "release_date": "2026-09-30"
+  },
+  {
+    "id": "spacexai:grok-4-7-low",
+    "name": "Grok 4.7 (Low)",
+    "provider": "SpaceXAI",
+    "model_access": "unknown",
+    "upstream_id": "208c16f0-8c5b-4524-ac8a-ac74c02e80a9",
+    "upstream_slug": "grok-4-7-low",
+    "release_date": "2026-09-21"
+  },
+  {
+    "id": "china-mobile:jt236b",
+    "name": "JT-4.1 Flash 236B A21B (Reasoning)",
+    "provider": "China Mobile",
+    "model_access": "unknown",
+    "upstream_id": "46f11cdf-1725-4abb-b39b-bd6bd948149c",
+    "upstream_slug": "jt236b",
+    "release_date": "2026-07-09"
   }
 ]
