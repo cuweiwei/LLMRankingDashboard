@@ -3315,7 +3315,7 @@
     "name": "JT-4.1 Flash 236B A21B",
     "provider": "China Mobile",
     "model_access": "unknown",
-    "upstream_id": "901ec71b-51ec-4f53-b807-06ee17b890b4",
+    "upstream_id": "46f11cdf-1725-4abb-b39b-bd6bd948149c",
     "upstream_slug": "jt-4-1-flash-236b-a21b",
     "release_date": "2026-07-09"
   },
@@ -6233,6 +6233,15 @@
     "model_access": "unknown",
     "upstream_id": "46f11cdf-1725-4abb-b39b-bd6bd948149c",
     "upstream_slug": "jt236b",
+    "release_date": "2026-07-09"
+  },
+  {
+    "id": "china-mobile:jt-4-1-flash-236b-a21b-non-reasoning",
+    "name": "JT-4.1 Flash 236B A21B (Non-reasoning)",
+    "provider": "China Mobile",
+    "model_access": "unknown",
+    "upstream_id": "901ec71b-51ec-4f53-b807-06ee17b890b4",
+    "upstream_slug": "jt-4-1-flash-236b-a21b-non-reasoning",
     "release_date": "2026-07-09"
   }
 ]
