@@ -6243,5 +6243,14 @@
     "upstream_id": "901ec71b-51ec-4f53-b807-06ee17b890b4",
     "upstream_slug": "jt-4-1-flash-236b-a21b-non-reasoning",
     "release_date": "2026-07-09"
+  },
+  {
+    "id": "inclusionai:ling-3-1-flash",
+    "name": "Ling 3.1 Flash",
+    "provider": "InclusionAI",
+    "model_access": "unknown",
+    "upstream_id": "a6043b9b-628a-4a76-a021-2834e0627d05",
+    "upstream_slug": "ling-3-1-flash",
+    "release_date": "2026-10-01"
   }
 ]
