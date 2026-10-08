@@ -6261,5 +6261,50 @@
     "upstream_id": "34fc646a-0174-470e-9e62-d8df452210b3",
     "upstream_slug": "mistral-large-4",
     "release_date": "2026-10-06"
+  },
+  {
+    "id": "anthropic:claude-haiku-5-5-high",
+    "name": "Claude Haiku 5.5 (High)",
+    "provider": "Anthropic",
+    "model_access": "unknown",
+    "upstream_id": "20829974-af06-497e-9f42-77fb958d43b9",
+    "upstream_slug": "claude-haiku-5-5-high",
+    "release_date": "2026-10-07"
+  },
+  {
+    "id": "anthropic:claude-haiku-5-5-xhigh",
+    "name": "Claude Haiku 5.5 (Xhigh)",
+    "provider": "Anthropic",
+    "model_access": "unknown",
+    "upstream_id": "41b5bf5e-daf6-42d9-b8d1-60e340a3028d",
+    "upstream_slug": "claude-haiku-5-5-xhigh",
+    "release_date": "2026-10-07"
+  },
+  {
+    "id": "anthropic:claude-haiku-5-5-low",
+    "name": "Claude Haiku 5.5 (Low)",
+    "provider": "Anthropic",
+    "model_access": "unknown",
+    "upstream_id": "42908ae3-d3bd-4934-be19-fbff93d3fde8",
+    "upstream_slug": "claude-haiku-5-5-low",
+    "release_date": "2026-10-07"
+  },
+  {
+    "id": "anthropic:claude-haiku-5-5",
+    "name": "Claude Haiku 5.5 (Max)",
+    "provider": "Anthropic",
+    "model_access": "unknown",
+    "upstream_id": "7d064a11-6e78-4030-b535-cdf940615041",
+    "upstream_slug": "claude-haiku-5-5",
+    "release_date": "2026-10-07"
+  },
+  {
+    "id": "anthropic:claude-haiku-5-5-medium",
+    "name": "Claude Haiku 5.5 (Medium)",
+    "provider": "Anthropic",
+    "model_access": "unknown",
+    "upstream_id": "af26fff4-8120-41be-a5f0-86aaea023f20",
+    "upstream_slug": "claude-haiku-5-5-medium",
+    "release_date": "2026-10-07"
   }
 ]
