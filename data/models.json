@@ -6306,5 +6306,14 @@
     "upstream_id": "af26fff4-8120-41be-a5f0-86aaea023f20",
     "upstream_slug": "claude-haiku-5-5-medium",
     "release_date": "2026-10-07"
+  },
+  {
+    "id": "openai:gpt-6-sol-daybreak-blue",
+    "name": "GPT-6 Sol (Daybreak Blue, max)",
+    "provider": "OpenAI",
+    "model_access": "unknown",
+    "upstream_id": "93e12518-6e04-4713-b52d-2c56dac49c63",
+    "upstream_slug": "gpt-6-sol-daybreak-blue",
+    "release_date": "2026-09-22"
   }
 ]
