@@ -6315,5 +6315,23 @@
     "upstream_id": "93e12518-6e04-4713-b52d-2c56dac49c63",
     "upstream_slug": "gpt-6-sol-daybreak-blue",
     "release_date": "2026-09-22"
+  },
+  {
+    "id": "meta:muse-wonder-full",
+    "name": "Muse Wonder Full (Max)",
+    "provider": "Meta",
+    "model_access": "unknown",
+    "upstream_id": "e994a6e0-d36b-4dab-8ae1-c1b469e4d9e2",
+    "upstream_slug": "muse-wonder-full",
+    "release_date": "2026-10-12"
+  },
+  {
+    "id": "meta:muse-wonder",
+    "name": "Muse Wonder (Max)",
+    "provider": "Meta",
+    "model_access": "unknown",
+    "upstream_id": "ff2f3f3d-783f-4e27-8a39-47237501a313",
+    "upstream_slug": "muse-wonder",
+    "release_date": "2026-10-12"
   }
 ]
