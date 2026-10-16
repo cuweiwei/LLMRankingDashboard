@@ -6333,5 +6333,32 @@
     "upstream_id": "ff2f3f3d-783f-4e27-8a39-47237501a313",
     "upstream_slug": "muse-wonder",
     "release_date": "2026-10-12"
+  },
+  {
+    "id": "meta:muse-spark-open",
+    "name": "Muse Spark Open (Xhigh)",
+    "provider": "Meta",
+    "model_access": "unknown",
+    "upstream_id": "3661c8fb-caf7-4118-aa18-65b84fea8e44",
+    "upstream_slug": "muse-spark-open",
+    "release_date": "2026-10-15"
+  },
+  {
+    "id": "nvidia:nemotron-3-5-bolt-74b-a9b",
+    "name": "Nemotron 3.5 Bolt 74B-A9B",
+    "provider": "NVIDIA",
+    "model_access": "unknown",
+    "upstream_id": "7d2aa050-888e-4c27-a92d-10337a4dfb3a",
+    "upstream_slug": "nemotron-3-5-bolt-74b-a9b",
+    "release_date": "2026-10-15"
+  },
+  {
+    "id": "nvidia:nemotron-3-5-super-vl",
+    "name": "Nemotron 3.5 Super VL",
+    "provider": "NVIDIA",
+    "model_access": "unknown",
+    "upstream_id": "e2c0623e-c855-4a61-bb66-be1f1ed43234",
+    "upstream_slug": "nemotron-3-5-super-vl",
+    "release_date": "2026-10-15"
   }
 ]
