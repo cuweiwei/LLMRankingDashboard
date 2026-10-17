@@ -697,7 +697,7 @@
     "name": "Solar Pro 4",
     "provider": "Upstage",
     "model_access": "unknown",
-    "upstream_id": "1b64aa81-c223-4b8f-909b-82185a234765",
+    "upstream_id": "15c4cbd7-b9aa-42c8-9ce5-5abbde0e6963",
     "upstream_slug": "solar-pro4",
     "release_date": "2026-08-06"
   },
@@ -6360,5 +6360,14 @@
     "upstream_id": "e2c0623e-c855-4a61-bb66-be1f1ed43234",
     "upstream_slug": "nemotron-3-5-super-vl",
     "release_date": "2026-10-15"
+  },
+  {
+    "id": "reflection:reflection-beam",
+    "name": "Beam 1.0",
+    "provider": "Reflection",
+    "model_access": "unknown",
+    "upstream_id": "69468cce-7b5c-414a-b498-41df4c34df85",
+    "upstream_slug": "reflection-beam",
+    "release_date": "2026-10-16"
   }
 ]
