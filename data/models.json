@@ -6369,5 +6369,23 @@
     "upstream_id": "69468cce-7b5c-414a-b498-41df4c34df85",
     "upstream_slug": "reflection-beam",
     "release_date": "2026-10-16"
+  },
+  {
+    "id": "minimax:minimax-m3-1-flash",
+    "name": "MiniMax-M3.1-Flash",
+    "provider": "MiniMax",
+    "model_access": "unknown",
+    "upstream_id": "d49c8680-e29b-400e-9511-824f7ddebe07",
+    "upstream_slug": "minimax-m3-1-flash",
+    "release_date": "2026-10-19"
+  },
+  {
+    "id": "deepseek:deepseek-v4-1-flash-1017",
+    "name": "DeepSeek V4.1 Flash 1017 (Max)",
+    "provider": "DeepSeek",
+    "model_access": "unknown",
+    "upstream_id": "f151fd0b-2139-40cf-a3ec-995e8cedc592",
+    "upstream_slug": "deepseek-v4-1-flash-1017",
+    "release_date": "2026-10-17"
   }
 ]
