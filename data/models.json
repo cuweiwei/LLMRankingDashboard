@@ -6387,5 +6387,14 @@
     "upstream_id": "f151fd0b-2139-40cf-a3ec-995e8cedc592",
     "upstream_slug": "deepseek-v4-1-flash-1017",
     "release_date": "2026-10-17"
+  },
+  {
+    "id": "inclusionai:ling-3-1-flash-1019",
+    "name": "Ling 3.1 Flash 1019",
+    "provider": "InclusionAI",
+    "model_access": "unknown",
+    "upstream_id": "539ed227-38f4-4bea-a015-117057c14b18",
+    "upstream_slug": "ling-3-1-flash-1019",
+    "release_date": "2026-10-22"
   }
 ]
