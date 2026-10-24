@@ -6396,5 +6396,23 @@
     "upstream_id": "539ed227-38f4-4bea-a015-117057c14b18",
     "upstream_slug": "ling-3-1-flash-1019",
     "release_date": "2026-10-22"
+  },
+  {
+    "id": "nvidia:nemotron-3-5-bolt-e4b-4gb",
+    "name": "Nemotron 3.5 Bolt E4B 4GB (Reasoning)",
+    "provider": "NVIDIA",
+    "model_access": "unknown",
+    "upstream_id": "610595ba-a40d-46c4-acfd-44fa239a6351",
+    "upstream_slug": "nemotron-3-5-bolt-e4b-4gb",
+    "release_date": "2026-10-23"
+  },
+  {
+    "id": "kimi:kimi-k3-1-pro",
+    "name": "Kimi K3.1 Pro",
+    "provider": "Kimi",
+    "model_access": "unknown",
+    "upstream_id": "665c67ca-09eb-48f0-a7a3-0096e1d5de51",
+    "upstream_slug": "kimi-k3-1-pro",
+    "release_date": "2026-10-23"
   }
 ]
