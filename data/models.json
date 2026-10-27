@@ -6414,5 +6414,59 @@
     "upstream_id": "665c67ca-09eb-48f0-a7a3-0096e1d5de51",
     "upstream_slug": "kimi-k3-1-pro",
     "release_date": "2026-10-23"
+  },
+  {
+    "id": "openai:gpt-6-1-terra-non-reasoning",
+    "name": "GPT-6.1 Terra (Non-reasoning)",
+    "provider": "OpenAI",
+    "model_access": "unknown",
+    "upstream_id": "0d3c777f-6817-42d7-9bb9-223314bc5a57",
+    "upstream_slug": "gpt-6-1-terra-non-reasoning",
+    "release_date": "2026-10-26"
+  },
+  {
+    "id": "openai:gpt-6-1-terra",
+    "name": "GPT-6.1 Terra (Max)",
+    "provider": "OpenAI",
+    "model_access": "unknown",
+    "upstream_id": "b0c462cf-f2d0-4126-9434-28db9502219f",
+    "upstream_slug": "gpt-6-1-terra",
+    "release_date": "2026-10-26"
+  },
+  {
+    "id": "openai:gpt-6-1-terra-medium",
+    "name": "GPT-6.1 Terra (Medium)",
+    "provider": "OpenAI",
+    "model_access": "unknown",
+    "upstream_id": "c441e158-a87d-4116-911b-93325e4b4f1c",
+    "upstream_slug": "gpt-6-1-terra-medium",
+    "release_date": "2026-10-26"
+  },
+  {
+    "id": "openai:gpt-6-1-terra-low",
+    "name": "GPT-6.1 Terra (Low)",
+    "provider": "OpenAI",
+    "model_access": "unknown",
+    "upstream_id": "c955b262-a17f-4f1a-b097-6860b866295b",
+    "upstream_slug": "gpt-6-1-terra-low",
+    "release_date": "2026-10-26"
+  },
+  {
+    "id": "openai:gpt-6-1-terra-xhigh",
+    "name": "GPT-6.1 Terra (Xhigh)",
+    "provider": "OpenAI",
+    "model_access": "unknown",
+    "upstream_id": "e8d443ba-8aca-4830-a186-ae869bb9c6fe",
+    "upstream_slug": "gpt-6-1-terra-xhigh",
+    "release_date": "2026-10-26"
+  },
+  {
+    "id": "openai:gpt-6-1-terra-high",
+    "name": "GPT-6.1 Terra (High)",
+    "provider": "OpenAI",
+    "model_access": "unknown",
+    "upstream_id": "ea3e1f50-f62d-41d2-849a-9af0413e4d37",
+    "upstream_slug": "gpt-6-1-terra-high",
+    "release_date": "2026-10-26"
   }
 ]
