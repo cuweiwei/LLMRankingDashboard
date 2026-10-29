@@ -6468,5 +6468,14 @@
     "upstream_id": "ea3e1f50-f62d-41d2-849a-9af0413e4d37",
     "upstream_slug": "gpt-6-1-terra-high",
     "release_date": "2026-10-26"
+  },
+  {
+    "id": "google:gemini-4-carbon",
+    "name": "Gemini 4 Carbon (High)",
+    "provider": "Google",
+    "model_access": "unknown",
+    "upstream_id": "909ed0ba-bcc5-4f38-8162-08a4e187a772",
+    "upstream_slug": "gemini-4-carbon",
+    "release_date": "2026-10-28"
   }
 ]
