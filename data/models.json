@@ -6258,7 +6258,7 @@
     "name": "Mistral Large 4 Preview",
     "provider": "Mistral",
     "model_access": "unknown",
-    "upstream_id": "34fc646a-0174-470e-9e62-d8df452210b3",
+    "upstream_id": "ea5019ae-b0b7-49a5-80b3-0e584807af0f",
     "upstream_slug": "mistral-large-4",
     "release_date": "2026-10-06"
   },
@@ -6477,5 +6477,14 @@
     "upstream_id": "909ed0ba-bcc5-4f38-8162-08a4e187a772",
     "upstream_slug": "gemini-4-carbon",
     "release_date": "2026-10-28"
+  },
+  {
+    "id": "mistral:mistral-large-4-medium",
+    "name": "Mistral Large 4 (Medium)",
+    "provider": "Mistral",
+    "model_access": "unknown",
+    "upstream_id": "27b24366-fd1a-44b7-8011-e24d7501318d",
+    "upstream_slug": "mistral-large-4-medium",
+    "release_date": "2026-10-29"
   }
 ]
