@@ -6486,5 +6486,14 @@
     "upstream_id": "27b24366-fd1a-44b7-8011-e24d7501318d",
     "upstream_slug": "mistral-large-4-medium",
     "release_date": "2026-10-29"
+  },
+  {
+    "id": "deepseek:deepseek-v4-1-flash-1017-non-reasoning",
+    "name": "DeepSeek V4.1 Flash 1017 (Non-reasoning)",
+    "provider": "DeepSeek",
+    "model_access": "unknown",
+    "upstream_id": "5720fd2f-873a-4765-8640-a153b38bd64d",
+    "upstream_slug": "deepseek-v4-1-flash-1017-non-reasoning",
+    "release_date": "2026-10-17"
   }
 ]
