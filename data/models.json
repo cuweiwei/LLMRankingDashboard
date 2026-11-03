@@ -6495,5 +6495,41 @@
     "upstream_id": "5720fd2f-873a-4765-8640-a153b38bd64d",
     "upstream_slug": "deepseek-v4-1-flash-1017-non-reasoning",
     "release_date": "2026-10-17"
+  },
+  {
+    "id": "google:gemini-4-carbon-medium",
+    "name": "Gemini 4 Carbon (Medium)",
+    "provider": "Google",
+    "model_access": "unknown",
+    "upstream_id": "0d3eaafd-54ed-4f78-bdd7-05a2db883986",
+    "upstream_slug": "gemini-4-carbon-medium",
+    "release_date": "2026-10-28"
+  },
+  {
+    "id": "nanbeige:nanbeige4-3-33b",
+    "name": "Nanbeige4.3-33B",
+    "provider": "Nanbeige",
+    "model_access": "unknown",
+    "upstream_id": "4cef9716-27a3-4ac3-9620-cd75135d7bbf",
+    "upstream_slug": "nanbeige4-3-33b",
+    "release_date": "2026-10-25"
+  },
+  {
+    "id": "google:gemini-4-carbon-low",
+    "name": "Gemini 4 Carbon (Low)",
+    "provider": "Google",
+    "model_access": "unknown",
+    "upstream_id": "b3866703-a9f7-4ea2-8f3f-b361c90aaf0e",
+    "upstream_slug": "gemini-4-carbon-low",
+    "release_date": "2026-10-28"
+  },
+  {
+    "id": "deepseek:deepseek-v4-1-flash-1017-high",
+    "name": "DeepSeek V4.1 Flash 1017 (High)",
+    "provider": "DeepSeek",
+    "model_access": "unknown",
+    "upstream_id": "c3b66080-fdcb-48e4-8ade-6baf77921c7c",
+    "upstream_slug": "deepseek-v4-1-flash-1017-high",
+    "release_date": "2026-10-17"
   }
 ]
