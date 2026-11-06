@@ -6531,5 +6531,32 @@
     "upstream_id": "c3b66080-fdcb-48e4-8ade-6baf77921c7c",
     "upstream_slug": "deepseek-v4-1-flash-1017-high",
     "release_date": "2026-10-17"
+  },
+  {
+    "id": "meta:muse-wonder-high",
+    "name": "Muse Wonder (High)",
+    "provider": "Meta",
+    "model_access": "unknown",
+    "upstream_id": "38a98e3d-779b-49ec-b005-230a3a72088a",
+    "upstream_slug": "muse-wonder-high",
+    "release_date": "2026-10-12"
+  },
+  {
+    "id": "tencent:tencent-hy4",
+    "name": "Tencent Hy4",
+    "provider": "Tencent",
+    "model_access": "unknown",
+    "upstream_id": "d274918e-ea82-4951-8b37-8ed9ab898dbc",
+    "upstream_slug": "tencent-hy4",
+    "release_date": "2026-11-03"
+  },
+  {
+    "id": "thinking-machines:inkling-2-small",
+    "name": "Inkling 2 Small",
+    "provider": "Thinking Machines",
+    "model_access": "unknown",
+    "upstream_id": "e2ed7885-d46b-4da7-a873-f12f88af0081",
+    "upstream_slug": "inkling-2-small",
+    "release_date": "2026-11-05"
   }
 ]
