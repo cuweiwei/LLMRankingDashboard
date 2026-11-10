@@ -6558,5 +6558,77 @@
     "upstream_id": "e2ed7885-d46b-4da7-a873-f12f88af0081",
     "upstream_slug": "inkling-2-small",
     "release_date": "2026-11-05"
+  },
+  {
+    "id": "anthropic:claude-fable-5-2-medium",
+    "name": "Claude Fable 5.2 (Medium, Default Fallback)",
+    "provider": "Anthropic",
+    "model_access": "unknown",
+    "upstream_id": "0c9b4e05-9259-42cc-b40e-d6acbbeaa7e8",
+    "upstream_slug": "claude-fable-5-2-medium",
+    "release_date": "2026-11-09"
+  },
+  {
+    "id": "anthropic:claude-fable-5-2",
+    "name": "Claude Fable 5.2 (Max, Default Fallback)",
+    "provider": "Anthropic",
+    "model_access": "unknown",
+    "upstream_id": "593f2d23-247b-41c9-a679-cebd225f0a9a",
+    "upstream_slug": "claude-fable-5-2",
+    "release_date": "2026-11-09"
+  },
+  {
+    "id": "anthropic:claude-fable-5-2-xhigh",
+    "name": "Claude Fable 5.2 (Xhigh, Default Fallback)",
+    "provider": "Anthropic",
+    "model_access": "unknown",
+    "upstream_id": "76942526-cc96-46b0-bc27-29561c53ed70",
+    "upstream_slug": "claude-fable-5-2-xhigh",
+    "release_date": "2026-11-09"
+  },
+  {
+    "id": "meta:muse-ember-xhigh",
+    "name": "Muse Ember (Xhigh)",
+    "provider": "Meta",
+    "model_access": "unknown",
+    "upstream_id": "7a64ffc4-36c3-4369-981e-73abdd6ff5e2",
+    "upstream_slug": "muse-ember-xhigh",
+    "release_date": "2026-11-09"
+  },
+  {
+    "id": "anthropic:claude-fable-5-2-low",
+    "name": "Claude Fable 5.2 (Low, Default Fallback)",
+    "provider": "Anthropic",
+    "model_access": "unknown",
+    "upstream_id": "cfc7acb1-d903-4858-9b6c-6c7776caf8f9",
+    "upstream_slug": "claude-fable-5-2-low",
+    "release_date": "2026-11-09"
+  },
+  {
+    "id": "sapiens-ai:agnes-2-5-pro-theta",
+    "name": "Agnes 2.5 Pro Theta",
+    "provider": "Sapiens AI",
+    "model_access": "unknown",
+    "upstream_id": "d4dd600d-0d8e-4d6e-ad18-0cb8f7d6c4d0",
+    "upstream_slug": "agnes-2-5-pro-theta",
+    "release_date": "2026-11-07"
+  },
+  {
+    "id": "meta:muse-ember",
+    "name": "Muse Ember (Max)",
+    "provider": "Meta",
+    "model_access": "unknown",
+    "upstream_id": "dbf63365-127f-41ee-9e51-81173adb3502",
+    "upstream_slug": "muse-ember",
+    "release_date": "2026-11-09"
+  },
+  {
+    "id": "anthropic:claude-fable-5-2-high",
+    "name": "Claude Fable 5.2 (High, Default Fallback)",
+    "provider": "Anthropic",
+    "model_access": "unknown",
+    "upstream_id": "fdc1913b-9497-45ef-83f7-17dae756f37e",
+    "upstream_slug": "claude-fable-5-2-high",
+    "release_date": "2026-11-09"
   }
 ]
