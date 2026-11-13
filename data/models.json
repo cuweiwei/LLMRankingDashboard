@@ -644,7 +644,7 @@
     "provider": "LG AI Research",
     "model_access": "unknown",
     "upstream_id": "18721247-4e56-4cf7-9a9d-c71cc60c0961",
-    "upstream_slug": "k-exaone-2-0-0803",
+    "upstream_slug": "k-exaone-2-0",
     "release_date": "2026-08-12"
   },
   {
@@ -6232,7 +6232,7 @@
     "provider": "China Mobile",
     "model_access": "unknown",
     "upstream_id": "46f11cdf-1725-4abb-b39b-bd6bd948149c",
-    "upstream_slug": "jt236b",
+    "upstream_slug": "jt-4-1-flash-236b-a21b-0709",
     "release_date": "2026-07-09"
   },
   {
@@ -6630,5 +6630,41 @@
     "upstream_id": "fdc1913b-9497-45ef-83f7-17dae756f37e",
     "upstream_slug": "claude-fable-5-2-high",
     "release_date": "2026-11-09"
+  },
+  {
+    "id": "google:gemini-4-hydrogen-low",
+    "name": "Gemini 4 Hydrogen (Low)",
+    "provider": "Google",
+    "model_access": "unknown",
+    "upstream_id": "88c68c50-03c1-458a-9292-bd398c27adc5",
+    "upstream_slug": "gemini-4-hydrogen-low",
+    "release_date": "2026-11-12"
+  },
+  {
+    "id": "google:gemini-4-hydrogen",
+    "name": "Gemini 4 Hydrogen (Xhigh)",
+    "provider": "Google",
+    "model_access": "unknown",
+    "upstream_id": "dad0e3b1-e3e7-477a-99f9-c14457a91114",
+    "upstream_slug": "gemini-4-hydrogen",
+    "release_date": "2026-11-12"
+  },
+  {
+    "id": "google:gemini-4-hydrogen-high",
+    "name": "Gemini 4 Hydrogen (High)",
+    "provider": "Google",
+    "model_access": "unknown",
+    "upstream_id": "dae0262d-26a4-44d1-925a-6f2731cbda6a",
+    "upstream_slug": "gemini-4-hydrogen-high",
+    "release_date": "2026-11-12"
+  },
+  {
+    "id": "google:gemini-4-hydrogen-medium",
+    "name": "Gemini 4 Hydrogen (Medium)",
+    "provider": "Google",
+    "model_access": "unknown",
+    "upstream_id": "f0537484-af30-4a8a-bf34-368c552e5cfd",
+    "upstream_slug": "gemini-4-hydrogen-medium",
+    "release_date": "2026-11-12"
   }
 ]
