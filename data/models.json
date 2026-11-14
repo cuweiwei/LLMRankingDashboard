@@ -6250,7 +6250,7 @@
     "provider": "InclusionAI",
     "model_access": "unknown",
     "upstream_id": "a6043b9b-628a-4a76-a021-2834e0627d05",
-    "upstream_slug": "ling-3-1-flash",
+    "upstream_slug": "ling-3-1-flash-1001",
     "release_date": "2026-10-01"
   },
   {
@@ -6666,5 +6666,23 @@
     "upstream_id": "f0537484-af30-4a8a-bf34-368c552e5cfd",
     "upstream_slug": "gemini-4-hydrogen-medium",
     "release_date": "2026-11-12"
+  },
+  {
+    "id": "google:gemini-4-argon-medium",
+    "name": "Gemini 4 Argon (Medium)",
+    "provider": "Google",
+    "model_access": "unknown",
+    "upstream_id": "48e6f735-f2bc-418f-b99f-3dc5a0ddda77",
+    "upstream_slug": "gemini-4-argon-medium",
+    "release_date": "2026-09-30"
+  },
+  {
+    "id": "deepseek:deepseek-v4-pro-high",
+    "name": "DeepSeek V4 Pro 0813 (High)",
+    "provider": "DeepSeek",
+    "model_access": "unknown",
+    "upstream_id": "e94c7595-a320-4c88-8f07-d9fd50fc4595",
+    "upstream_slug": "deepseek-v4-pro-high",
+    "release_date": "2026-08-13"
   }
 ]
