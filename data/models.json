@@ -6693,5 +6693,149 @@
     "upstream_id": "fef6625d-9097-45f6-95c0-bcaa06e3d8e1",
     "upstream_slug": "qwen4-max",
     "release_date": "2026-11-16"
+  },
+  {
+    "id": "openai:gpt-6-2-sol-xhigh",
+    "name": "GPT-6.2 Sol (Xhigh)",
+    "provider": "OpenAI",
+    "model_access": "unknown",
+    "upstream_id": "27c326a6-ec9b-415f-a29e-b1f4927484dc",
+    "upstream_slug": "gpt-6-2-sol-xhigh",
+    "release_date": "2026-11-17"
+  },
+  {
+    "id": "liquid-ai:lfm3-vl-2b",
+    "name": "LFM3-VL-2B",
+    "provider": "Liquid AI",
+    "model_access": "unknown",
+    "upstream_id": "2b17227e-a229-474f-a86d-0dacb76212ca",
+    "upstream_slug": "lfm3-vl-2b",
+    "release_date": "2026-10-27"
+  },
+  {
+    "id": "openai:astra-for-law-6-2",
+    "name": "Astra for Law 6.2 (Max)",
+    "provider": "OpenAI",
+    "model_access": "unknown",
+    "upstream_id": "583498f2-dcb7-42ff-b705-40ce8ef87a88",
+    "upstream_slug": "astra-for-law-6-2",
+    "release_date": "2026-11-17"
+  },
+  {
+    "id": "openai:gpt-6-2-astra-xhigh",
+    "name": "GPT-6.2 Astra (Xhigh)",
+    "provider": "OpenAI",
+    "model_access": "unknown",
+    "upstream_id": "592572d5-f789-4106-abbc-fadf2206d10b",
+    "upstream_slug": "gpt-6-2-astra-xhigh",
+    "release_date": "2026-11-17"
+  },
+  {
+    "id": "joy-future-academy:joyai-vl",
+    "name": "JoyAI-VL-Preview",
+    "provider": "Joy Future Academy",
+    "model_access": "unknown",
+    "upstream_id": "5ca91b0e-0e47-4793-ace9-2ca763106e62",
+    "upstream_slug": "joyai-vl",
+    "release_date": "2026-11-17"
+  },
+  {
+    "id": "openai:gpt-6-2-astra",
+    "name": "GPT-6.2 Astra (Max)",
+    "provider": "OpenAI",
+    "model_access": "unknown",
+    "upstream_id": "75c1b0b8-9db3-4c7e-95be-d74e59defee4",
+    "upstream_slug": "gpt-6-2-astra",
+    "release_date": "2026-11-17"
+  },
+  {
+    "id": "openai:gpt-6-2-sol-medium",
+    "name": "GPT-6.2 Sol (Medium)",
+    "provider": "OpenAI",
+    "model_access": "unknown",
+    "upstream_id": "82b37079-56d9-4451-8a1a-22b0a921f4f8",
+    "upstream_slug": "gpt-6-2-sol-medium",
+    "release_date": "2026-11-17"
+  },
+  {
+    "id": "openai:gpt-6-2-astra-medium",
+    "name": "GPT-6.2 Astra (Medium)",
+    "provider": "OpenAI",
+    "model_access": "unknown",
+    "upstream_id": "8cec011f-c959-4726-8668-2ee2409a6bca",
+    "upstream_slug": "gpt-6-2-astra-medium",
+    "release_date": "2026-11-17"
+  },
+  {
+    "id": "openai:gpt-6-2-sol",
+    "name": "GPT-6.2 Sol (Max)",
+    "provider": "OpenAI",
+    "model_access": "unknown",
+    "upstream_id": "a1a84b18-e8c9-48fb-8e04-6003bd9f6ff4",
+    "upstream_slug": "gpt-6-2-sol",
+    "release_date": "2026-11-17"
+  },
+  {
+    "id": "openai:gpt-6-2-sol-low",
+    "name": "GPT-6.2 Sol (Low)",
+    "provider": "OpenAI",
+    "model_access": "unknown",
+    "upstream_id": "a77965fb-2117-4e2c-bd8b-80b5579a7e7e",
+    "upstream_slug": "gpt-6-2-sol-low",
+    "release_date": "2026-11-17"
+  },
+  {
+    "id": "thinking-machines:inkling-high",
+    "name": "Inkling (High)",
+    "provider": "Thinking Machines",
+    "model_access": "unknown",
+    "upstream_id": "ba83cb41-370c-4331-9e7e-3074d6cc66c4",
+    "upstream_slug": "inkling-high",
+    "release_date": "2026-07-15"
+  },
+  {
+    "id": "liquid-ai:lfm3-1-7b",
+    "name": "LFM3-1.7B",
+    "provider": "Liquid AI",
+    "model_access": "unknown",
+    "upstream_id": "c76e1f60-9766-4ac5-8717-2837a05924af",
+    "upstream_slug": "lfm3-1-7b",
+    "release_date": "2026-10-27"
+  },
+  {
+    "id": "openai:gpt-6-2-astra-low",
+    "name": "GPT-6.2 Astra (Low)",
+    "provider": "OpenAI",
+    "model_access": "unknown",
+    "upstream_id": "cc93ecfd-845e-455d-9642-6799d7133b7e",
+    "upstream_slug": "gpt-6-2-astra-low",
+    "release_date": "2026-11-17"
+  },
+  {
+    "id": "openai:gpt-6-2-sol-high",
+    "name": "GPT-6.2 Sol (High)",
+    "provider": "OpenAI",
+    "model_access": "unknown",
+    "upstream_id": "cd85e412-c43f-4535-bf8e-5ba113d97ca3",
+    "upstream_slug": "gpt-6-2-sol-high",
+    "release_date": "2026-11-17"
+  },
+  {
+    "id": "thinking-machines:inkling-small-high",
+    "name": "Inkling Small (High)",
+    "provider": "Thinking Machines",
+    "model_access": "unknown",
+    "upstream_id": "f586801a-2cff-4e77-8322-577cd57bbdd1",
+    "upstream_slug": "inkling-small-high",
+    "release_date": "2026-07-30"
+  },
+  {
+    "id": "openai:gpt-6-2-astra-high",
+    "name": "GPT-6.2 Astra (High)",
+    "provider": "OpenAI",
+    "model_access": "unknown",
+    "upstream_id": "fe959a7a-944c-4ba8-8e41-349712599b39",
+    "upstream_slug": "gpt-6-2-astra-high",
+    "release_date": "2026-11-17"
   }
 ]
