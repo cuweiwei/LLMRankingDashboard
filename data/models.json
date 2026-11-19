@@ -6837,5 +6837,50 @@
     "upstream_id": "fe959a7a-944c-4ba8-8e41-349712599b39",
     "upstream_slug": "gpt-6-2-astra-high",
     "release_date": "2026-11-17"
+  },
+  {
+    "id": "google:gemini-4-neon-low",
+    "name": "Gemini 4 Neon (Low)",
+    "provider": "Google",
+    "model_access": "unknown",
+    "upstream_id": "09fea5f5-7217-452d-b693-fcca01e07bdf",
+    "upstream_slug": "gemini-4-neon-low",
+    "release_date": "2026-11-18"
+  },
+  {
+    "id": "google:gemini-4-neon-medium",
+    "name": "Gemini 4 Neon (Medium)",
+    "provider": "Google",
+    "model_access": "unknown",
+    "upstream_id": "2ba1a8f6-e052-4a33-b178-4db1e86157e4",
+    "upstream_slug": "gemini-4-neon-medium",
+    "release_date": "2026-11-18"
+  },
+  {
+    "id": "google:gemini-4-neon",
+    "name": "Gemini 4 Neon (Xhigh)",
+    "provider": "Google",
+    "model_access": "unknown",
+    "upstream_id": "7c667f2d-0149-4eb1-864c-7e66c166ad88",
+    "upstream_slug": "gemini-4-neon",
+    "release_date": "2026-11-18"
+  },
+  {
+    "id": "institute-of-foundation-models:k2-horizon-32b",
+    "name": "K2 Horizon 32B",
+    "provider": "Institute of Foundation Models",
+    "model_access": "unknown",
+    "upstream_id": "9034b7fc-11d6-433e-9b71-ec8520c487dd",
+    "upstream_slug": "k2-horizon-32b",
+    "release_date": "2026-09-03"
+  },
+  {
+    "id": "google:gemini-4-neon-high",
+    "name": "Gemini 4 Neon (High)",
+    "provider": "Google",
+    "model_access": "unknown",
+    "upstream_id": "9b696f5b-b5d2-4b1f-9ed5-7c1446ec8421",
+    "upstream_slug": "gemini-4-neon-high",
+    "release_date": "2026-11-18"
   }
 ]
