@@ -6882,5 +6882,14 @@
     "upstream_id": "9b696f5b-b5d2-4b1f-9ed5-7c1446ec8421",
     "upstream_slug": "gemini-4-neon-high",
     "release_date": "2026-11-18"
+  },
+  {
+    "id": "thinking-machines:inkling-2-mini",
+    "name": "Inkling 2 Mini",
+    "provider": "Thinking Machines",
+    "model_access": "unknown",
+    "upstream_id": "da3ba2f4-f4f1-43b6-95dc-8e9fa2a48402",
+    "upstream_slug": "inkling-2-mini",
+    "release_date": "2026-11-20"
   }
 ]
