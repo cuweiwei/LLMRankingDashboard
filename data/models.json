@@ -6891,5 +6891,14 @@
     "upstream_id": "da3ba2f4-f4f1-43b6-95dc-8e9fa2a48402",
     "upstream_slug": "inkling-2-mini",
     "release_date": "2026-11-20"
+  },
+  {
+    "id": "inclusionai:lingsante-3-1-flash",
+    "name": "LingSante-3.1-flash",
+    "provider": "InclusionAI",
+    "model_access": "unknown",
+    "upstream_id": "313e14b6-909f-43d2-b795-49c825dc1e21",
+    "upstream_slug": "lingsante-3-1-flash",
+    "release_date": "2026-11-22"
   }
 ]
