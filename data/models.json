@@ -6900,5 +6900,14 @@
     "upstream_id": "313e14b6-909f-43d2-b795-49c825dc1e21",
     "upstream_slug": "lingsante-3-1-flash",
     "release_date": "2026-11-22"
+  },
+  {
+    "id": "inclusionai:ling-3-2-air",
+    "name": "Ling-3.2-air",
+    "provider": "InclusionAI",
+    "model_access": "unknown",
+    "upstream_id": "f232d373-e666-488c-b0f2-39ef90321f64",
+    "upstream_slug": "ling-3-2-air",
+    "release_date": "2026-11-23"
   }
 ]
