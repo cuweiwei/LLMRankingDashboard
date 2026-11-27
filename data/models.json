@@ -6909,5 +6909,14 @@
     "upstream_id": "f232d373-e666-488c-b0f2-39ef90321f64",
     "upstream_slug": "ling-3-2-air",
     "release_date": "2026-11-23"
+  },
+  {
+    "id": "baidu:ernie-5-5-flash",
+    "name": "ERNIE 5.5 Flash Preview",
+    "provider": "Baidu",
+    "model_access": "unknown",
+    "upstream_id": "0cb139e2-02de-4c49-b7b4-b174937a83fc",
+    "upstream_slug": "ernie-5-5-flash",
+    "release_date": "2026-11-23"
   }
 ]
