@@ -6918,5 +6918,14 @@
     "upstream_id": "0cb139e2-02de-4c49-b7b4-b174937a83fc",
     "upstream_slug": "ernie-5-5-flash",
     "release_date": "2026-11-23"
+  },
+  {
+    "id": "multiverse-computing:quasar-1-2-358b",
+    "name": "Quasar 1.2 358B (Max, Based on GLM-5.3)",
+    "provider": "Multiverse Computing",
+    "model_access": "unknown",
+    "upstream_id": "178d9aca-b55a-441d-89f7-aec7f9ad3fda",
+    "upstream_slug": "quasar-1-2-358b",
+    "release_date": "2026-10-07"
   }
 ]
